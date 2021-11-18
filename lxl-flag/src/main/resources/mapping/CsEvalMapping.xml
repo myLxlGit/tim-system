@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gre.lxl.mapper.CsEvalMapper">
+    <resultMap id="resultMap" type="com.gre.lxl.system.dto.CsEval">
+        <id column="ID" jdbcType="VARCHAR" property="id"/>
+        <result column="NAME" jdbcType="VARCHAR" property="name"/>
+        <association property="csEvalCredit" javaType="com.gre.lxl.system.dto.CsEvalCredit">
+            <id property="id" jdbcType="VARCHAR" column="CREDIT_ID"/>
+            <result property="evalId" jdbcType="VARCHAR" column="EVAL_ID"/>
+            <result property="creditAmount" jdbcType="VARCHAR" column="CREDIT_AMOUNT"/>
+        </association>
+        <collection property="csEvalSups" ofType="com.gre.lxl.system.dto.CsEvalSup">
+            <id column="SUP_ID" jdbcType="VARCHAR" property="id"/>
+            <result column="EVAL_ID" jdbcType="VARCHAR" property="evalId"/>
+            <result column="SUP_NAME" jdbcType="VARCHAR" property="supName"/>
+        </collection>
+    </resultMap>
+
+    <select id="selectAll" resultMap="resultMap">
+        SELECT
+            CS.ID,
+            CS.NAME,
+            SUP.ID AS SUP_ID,
+            SUP.EVAL_ID,
+            SUP.SUP_NAME,
+            CR.ID AS CREDIT_ID,
+            CR.CREDIT_AMOUNT,
+            CR.EVAL_ID
+        FROM
+            CS_EVAL CS
+        LEFT JOIN CS_EVAL_SUP SUP ON SUP.EVAL_ID = CS.ID
+        LEFT JOIN CS_EVAL_CREDIT CR ON CR.EVAL_ID = CS.ID
+    </select>
+</mapper>

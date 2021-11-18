@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gre.lxl.framework.system.login.compatible.mapper.CompatibleUserMapper">
+
+<!--    <select id="loadUserByUserName" resultType="com.gre.lxl.common.model.UserCachedVO">-->
+<!--            select s.USER_ID                                                     as userId,-->
+<!--                   s.JOB_NO                                                      as jobNo,-->
+<!--                   s.FULL_NAME                                                   as fullName,-->
+<!--                   s.USER_SEX                                                    as userSex,-->
+<!--                   s.USER_TEL                                                    as userTel,-->
+<!--                   s.USER_EMAIL                                                  as userEmail,-->
+<!--                   (case when stl.LOGIN_METHOD_ID is null then '1' else '0' end) as hasWeChat,-->
+<!--                   s.USER_NAME                                                   as userName,-->
+<!--                   s.USER_PWD                                                    as pwd,-->
+<!--                   s.DEL_FLAG                                                    as delFlag,-->
+<!--                   s.USER_STATUS                                                 as userStatus,-->
+<!--                   s.USER_AVATAR                                                 as avatar-->
+
+<!--            from SYS_USER s-->
+<!--                     left join SYS_THIRD_LOGIN stl-->
+<!--                               on s.USER_ID = stl.USER_ID and stl.IDENTITY_TYPE = '0' and stl.METHOD_STATE = '0'-->
+<!--            where-->
+<!--                <if test="mode == 'PH'.toString()"> s.USER_TEL = #{loginId,jdbcType=VARCHAR}</if>-->
+<!--                <if test="mode == 'EM'.toString()"> s.USER_EMAIL = #{loginId,jdbcType=VARCHAR}</if>-->
+<!--                <if test="mode != 'PH'.toString() and mode != 'EM'.toString()">-->
+<!--                    s.USER_NAME = #{loginId, jdbcType=VARCHAR}-->
+<!--                </if>-->
+<!--                and s.del_flag='0'-->
+<!--</select>-->
+<!--    <select id="selectOrganByUser" resultType="com.sumec.itc.common.core.domain.model.OrganVO">-->
+<!--        select PARENT_ID    as parentId,-->
+<!--               org.ORGAN_ID as organId,-->
+<!--               ORGAN_NAME   as organName,-->
+<!--               organ_code   as organCode-->
+<!--        from SYS_ORGAN org-->
+<!--                 left join SYS_ORGAN_USER SOU on org.ORGAN_ID = SOU.ORGAN_ID-->
+<!--        where org.DEL_FLAG = '0'-->
+<!--          and org.ORGAN_STATUS = '0'-->
+<!--          and sou.USER_ID = #{userId,jdbcType=VARCHAR}-->
+<!--    </select>-->
+<!--    <select id="selectRoles" resultType="com.sumec.itc.common.core.domain.model.RoleVO">-->
+<!--        select role.ROLE_ID    as roleId,-->
+<!--               role.ROLE_NAME  as roleName,-->
+<!--               role.ROLE_KEY   as roleKey,-->
+<!--               role.DATA_SCOPE as dataScope,-->
+<!--               listagg (sor.ORGAN_ID, ',') WITHIN GROUP (ORDER BY sor.ORGAN_ID) organIds-->
+<!--        from sys_role role-->
+<!--                 left join SYS_ORGAN_ROLE sor on sor.ROLE_ID = role.ROLE_ID-->
+<!--                 left join SYS_ROLE_USER SRU on sru.ROLE_ORGAN_ID = sor.ID-->
+<!--        where role.DEL_FLAG = '0'-->
+<!--          and role.ROLE_STATUS = '0'-->
+<!--          and sor.DEL_FLAG = '0'-->
+<!--          and sru.USER_ID = #{userId,jdbcType=VARCHAR}-->
+<!--        group by role.ROLE_ID, role.ROLE_NAME,role.ROLE_KEY,role.DATA_SCOPE-->
+<!--    </select>-->
+<!--    <select id="selectOrganById" resultType="com.sumec.itc.common.core.domain.model.OrganVO">-->
+<!--        select PARENT_ID    as parentId,-->
+<!--               org.ORGAN_ID as organId,-->
+<!--               ORGAN_NAME   as organName,-->
+<!--               organ_code   as organCode-->
+<!--        from SYS_ORGAN org-->
+<!--        where org.DEL_FLAG = '0'-->
+<!--          and org.ORGAN_STATUS = '0'-->
+<!--          and ORGAN_ID in-->
+<!--        <foreach collection="organIds" item="item" open="(" separator="," close=")">-->
+<!--            #{item,jdbcType=VARCHAR}-->
+<!--        </foreach>-->
+<!--    </select>-->
+<!--    <select id="selectMenu" resultType="com.sumec.itc.system.auth.compatible.old.vo.CompatibleMenuDTO">-->
+<!--        select distinct-->
+<!--               m.menu_id        as menuId,-->
+<!--               m.parent_id      as parentId,-->
+<!--               m.menu_name      as menuName,-->
+<!--               m.menu_type      as menuType,-->
+<!--               m.menu_icon      as icon,-->
+<!--               m.order_num      as orderNum,-->
+<!--               m.menu_path      as path,-->
+<!--               m.menu_component as component,-->
+<!--               m.menu_perms     as perms,-->
+<!--               m.menu_status    as status,-->
+<!--               m.menu_visible   as visible,-->
+<!--               m.create_time    as creatTime-->
+<!--        from sys_menu m-->
+<!--            <if test="userId != null and userId != ''">-->
+<!--                left outer join sys_role_menu rm on rm.menu_id = m.menu_id-->
+<!--                left outer join sys_role r on r.role_id = rm.role_id and r.role_status = '0'-->
+<!--                left outer join SYS_ORGAN_ROLE ro on ro.role_id = r.role_id-->
+<!--                left outer join SYS_ROLE_USER ru on ru.ROLE_ORGAN_ID = ro.ID-->
+<!--                left outer join sys_user u on u.user_id = ru.user_id and u.user_status = '0'-->
+<!--            </if>-->
+<!--        where m.menu_status = '0'-->
+<!--          <if test="userId != null and userId != ''">-->
+<!--              and u.user_id = #{userId,jdbcType=VARCHAR}-->
+<!--          </if>-->
+<!--          and m.menu_type in ('M', 'C')-->
+<!--        order by m.parent_id, m.order_num-->
+<!--    </select>-->
+
+<!--    <select id="selectAllMenuDir" resultType="com.sumec.itc.system.auth.compatible.old.vo.CompatibleMenuDTO">-->
+<!--        select-->
+<!--            m.menu_id        as menuId,-->
+<!--            m.parent_id      as parentId,-->
+<!--            m.menu_name      as menuName,-->
+<!--            m.menu_type      as menuType,-->
+<!--            m.menu_icon      as icon,-->
+<!--            m.order_num      as orderNum,-->
+<!--            m.menu_path      as path,-->
+<!--            m.menu_component as component,-->
+<!--            m.menu_perms     as perms,-->
+<!--            m.menu_status    as status,-->
+<!--            m.menu_visible   as visible,-->
+<!--            m.create_time    as creatTime-->
+<!--        from sys_menu m-->
+<!--        where m.menu_status = '0' and m.menu_type = 'M'-->
+<!--        order by m.order_num-->
+<!--    </select>-->
+    <select id="loadUserByUserName" resultType="com.gre.lxl.common.model.UserCachedVO">
+        select
+        TEACHER_ID as userId,
+        TEACHER_NAME as userName,
+        TEACHER_PASSWORD as pwd
+        from
+        RC_TEACHER
+        where TEACHER_ID = #{loginId, jdbcType=INTEGER}
+    </select>
+</mapper>

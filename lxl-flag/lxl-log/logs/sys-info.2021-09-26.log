@@ -1,0 +1,168 @@
+14:01:59.987 [main] INFO  c.g.l.TestApplication - [logStarting,55] - Starting TestApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 13344 (started by 39851 in E:\test\lxl-long\lxl-flag)
+14:01:59.995 [main] INFO  c.g.l.TestApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+14:02:01.712 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:02:02.026 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+14:02:02.383 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:02:02.470 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:02:02.639 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:02:03.243 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:02:03.907 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:02:07.345 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+14:02:07.408 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+14:02:07.410 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:02:07.411 [Thread-4] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+14:02:07.411 [Thread-2] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+14:02:07.411 [Thread-3] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+14:02:08.603 [main] INFO  c.g.l.TestApplication - [logStarted,61] - Started TestApplication in 8.942 seconds (JVM running for 9.956)
+14:02:08.703 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:02:08.704 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+14:02:08.704 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+14:02:08.704 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+14:02:08.739 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+14:02:29.852 [main] INFO  c.g.l.TestApplication - [logStarting,55] - Starting TestApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 2432 (started by 39851 in E:\test\lxl-long\lxl-flag)
+14:02:29.856 [main] INFO  c.g.l.TestApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+14:02:31.385 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:02:31.645 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+14:02:31.970 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:02:32.051 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:02:32.214 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:02:32.811 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:02:33.434 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:02:36.787 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+14:02:36.845 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+14:02:36.846 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:02:36.848 [Thread-3] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+14:02:36.848 [Thread-4] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+14:02:36.847 [Thread-2] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+14:02:37.973 [main] INFO  c.g.l.TestApplication - [logStarted,61] - Started TestApplication in 8.44 seconds (JVM running for 9.442)
+14:02:38.092 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:02:38.093 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+14:02:38.093 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+14:02:38.093 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+14:02:38.124 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+14:03:02.098 [main] INFO  c.g.l.TestApplication - [logStarting,55] - Starting TestApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 31436 (started by 39851 in E:\test\lxl-long\lxl-flag)
+14:03:02.102 [main] INFO  c.g.l.TestApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+14:03:03.671 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:03:03.932 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+14:03:04.284 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:03:04.352 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:03:04.513 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:03:05.119 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:03:05.739 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:03:09.147 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+14:03:09.196 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+14:03:09.198 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:03:09.199 [Thread-2] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+14:03:09.199 [Thread-3] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+14:03:09.199 [Thread-4] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+14:03:10.285 [main] INFO  c.g.l.TestApplication - [logStarted,61] - Started TestApplication in 8.499 seconds (JVM running for 9.482)
+14:03:10.402 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:03:10.402 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+14:03:10.402 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+14:03:10.402 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+14:03:10.430 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+14:03:48.148 [main] INFO  c.g.l.TestApplication - [logStarting,55] - Starting TestApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 19836 (started by 39851 in E:\test\lxl-long\lxl-flag)
+14:03:48.153 [main] INFO  c.g.l.TestApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+14:03:50.039 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:03:50.270 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+14:03:50.671 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:03:50.753 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:03:50.972 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:03:51.594 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:03:52.404 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:03:56.240 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+14:03:56.300 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+14:03:56.302 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:03:56.303 [Thread-3] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+14:03:56.303 [Thread-2] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+14:03:56.303 [Thread-4] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+14:03:57.588 [main] INFO  c.g.l.TestApplication - [logStarted,61] - Started TestApplication in 9.836 seconds (JVM running for 11.167)
+14:04:48.260 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:04:48.260 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+14:04:48.260 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+14:04:48.260 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+14:04:48.289 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+14:06:06.116 [main] INFO  c.g.l.TestApplication - [logStarting,55] - Starting TestApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 39272 (started by 39851 in E:\test\lxl-long\lxl-flag)
+14:06:06.121 [main] INFO  c.g.l.TestApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+14:06:07.780 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:06:08.043 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+14:06:08.404 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:06:08.492 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:06:08.652 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:06:09.338 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:06:10.093 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:06:13.918 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+14:06:13.977 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+14:06:13.979 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:06:13.980 [Thread-2] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+14:06:13.980 [Thread-3] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+14:06:13.980 [Thread-4] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+14:06:15.104 [main] INFO  c.g.l.TestApplication - [logStarted,61] - Started TestApplication in 9.323 seconds (JVM running for 10.431)
+14:06:15.197 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:06:15.198 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+14:06:15.198 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+14:06:15.198 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+14:06:15.225 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+14:09:32.173 [main] INFO  c.g.l.TestApplication - [logStarting,55] - Starting TestApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 40096 (started by 39851 in E:\test\lxl-long\lxl-flag)
+14:09:32.177 [main] INFO  c.g.l.TestApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+14:09:33.906 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:09:34.199 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+14:09:34.592 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:09:34.680 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:09:34.863 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:09:35.490 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:09:36.250 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:09:39.713 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+14:09:39.768 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+14:09:39.770 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:09:39.771 [Thread-3] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+14:09:39.771 [Thread-2] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+14:09:39.771 [Thread-4] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+14:09:40.758 [main] INFO  c.g.l.TestApplication - [logStarted,61] - Started TestApplication in 8.912 seconds (JVM running for 9.959)
+14:09:40.846 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:09:40.846 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+14:09:40.846 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+14:09:40.846 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+14:09:40.872 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+14:09:59.048 [main] INFO  c.g.l.TestApplication - [logStarting,55] - Starting TestApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 41260 (started by 39851 in E:\test\lxl-long\lxl-flag)
+14:09:59.052 [main] INFO  c.g.l.TestApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+14:10:00.598 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:10:00.854 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+14:10:01.160 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:10:01.241 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:10:01.404 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:10:02.018 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:10:02.640 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:10:05.891 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+14:10:05.938 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+14:10:05.940 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:10:05.941 [Thread-2] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+14:10:05.941 [Thread-4] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+14:10:05.941 [Thread-3] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+14:10:06.978 [main] INFO  c.g.l.TestApplication - [logStarted,61] - Started TestApplication in 8.23 seconds (JVM running for 9.215)
+14:10:07.062 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:10:07.064 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+14:10:07.064 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+14:10:07.064 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+14:10:07.089 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+14:13:46.644 [main] INFO  c.g.l.TestApplication - [logStarting,55] - Starting TestApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 41076 (started by 39851 in E:\test\lxl-long\lxl-flag)
+14:13:46.648 [main] INFO  c.g.l.TestApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+14:13:48.162 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:13:48.415 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+14:13:48.712 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:13:48.777 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:13:48.938 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:13:49.544 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:13:50.165 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:13:53.531 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+14:13:53.586 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+14:13:53.588 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:13:53.589 [Thread-2] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+14:13:53.589 [Thread-4] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+14:13:53.589 [Thread-3] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+14:13:54.604 [main] INFO  c.g.l.TestApplication - [logStarted,61] - Started TestApplication in 8.266 seconds (JVM running for 9.257)
+14:13:54.691 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:13:54.692 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+14:13:54.692 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+14:13:54.692 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+14:13:54.718 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed

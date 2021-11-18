@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/processdef">
+  <process id="BASE_FLOW" name="BASE_FLOW" isExecutable="true">
+    <startEvent id="startEvent1"></startEvent>
+    <userTask id="sid-D39EC3E3-E882-4485-A4FD-9AAE3E55DBF2" name="业务员">
+      <extensionElements>
+        <activiti:taskListener event="create" class="com.gre.lxl.workflow.listeners.FlowTaskListener">
+          <activiti:field name="roleKey">
+            <activiti:string><![CDATA[self]]></activiti:string>
+          </activiti:field>
+        </activiti:taskListener>
+      </extensionElements>
+    </userTask>
+    <sequenceFlow id="sid-562F2B2A-9D0C-4085-A6B9-A62DAAD08399" sourceRef="startEvent1" targetRef="sid-D39EC3E3-E882-4485-A4FD-9AAE3E55DBF2"></sequenceFlow>
+    <userTask id="sid-D00D7FFD-7ACF-4ADC-97C1-9D39F0033B88" name="总经理">
+      <extensionElements>
+        <activiti:taskListener event="create" class="com.gre.lxl.workflow.listeners.FlowTaskListener">
+          <activiti:field name="roleKey">
+            <activiti:string><![CDATA[manager]]></activiti:string>
+          </activiti:field>
+        </activiti:taskListener>
+      </extensionElements>
+    </userTask>
+    <sequenceFlow id="sid-A3022E6C-DB69-4C42-A927-4D91FEE4DF35" sourceRef="sid-D39EC3E3-E882-4485-A4FD-9AAE3E55DBF2" targetRef="sid-D00D7FFD-7ACF-4ADC-97C1-9D39F0033B88"></sequenceFlow>
+    <endEvent id="sid-74B390B0-DD57-4FDD-911A-7EBFFE5C3E31"></endEvent>
+    <sequenceFlow id="sid-DFD893D2-3B5D-42E1-9A95-7F012179E2A1" sourceRef="sid-D00D7FFD-7ACF-4ADC-97C1-9D39F0033B88" targetRef="sid-74B390B0-DD57-4FDD-911A-7EBFFE5C3E31"></sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_BASE_FLOW">
+    <bpmndi:BPMNPlane bpmnElement="BASE_FLOW" id="BPMNPlane_BASE_FLOW">
+      <bpmndi:BPMNShape bpmnElement="startEvent1" id="BPMNShape_startEvent1">
+        <omgdc:Bounds height="30.0" width="30.0" x="100.0" y="163.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="sid-D39EC3E3-E882-4485-A4FD-9AAE3E55DBF2" id="BPMNShape_sid-D39EC3E3-E882-4485-A4FD-9AAE3E55DBF2">
+        <omgdc:Bounds height="80.0" width="100.0" x="175.0" y="138.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="sid-D00D7FFD-7ACF-4ADC-97C1-9D39F0033B88" id="BPMNShape_sid-D00D7FFD-7ACF-4ADC-97C1-9D39F0033B88">
+        <omgdc:Bounds height="80.0" width="100.0" x="320.0" y="138.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="sid-74B390B0-DD57-4FDD-911A-7EBFFE5C3E31" id="BPMNShape_sid-74B390B0-DD57-4FDD-911A-7EBFFE5C3E31">
+        <omgdc:Bounds height="28.0" width="28.0" x="465.0" y="164.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="sid-DFD893D2-3B5D-42E1-9A95-7F012179E2A1" id="BPMNEdge_sid-DFD893D2-3B5D-42E1-9A95-7F012179E2A1">
+        <omgdi:waypoint x="420.0" y="178.0"></omgdi:waypoint>
+        <omgdi:waypoint x="465.0" y="178.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-562F2B2A-9D0C-4085-A6B9-A62DAAD08399" id="BPMNEdge_sid-562F2B2A-9D0C-4085-A6B9-A62DAAD08399">
+        <omgdi:waypoint x="130.0" y="178.0"></omgdi:waypoint>
+        <omgdi:waypoint x="175.0" y="178.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-A3022E6C-DB69-4C42-A927-4D91FEE4DF35" id="BPMNEdge_sid-A3022E6C-DB69-4C42-A927-4D91FEE4DF35">
+        <omgdi:waypoint x="275.0" y="178.0"></omgdi:waypoint>
+        <omgdi:waypoint x="320.0" y="178.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

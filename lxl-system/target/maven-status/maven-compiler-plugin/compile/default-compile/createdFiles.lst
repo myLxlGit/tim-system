@@ -1,0 +1,13 @@
+com\gre\lxl\system\dao\ctm\impl\FairyAdminRepositoryImpl.class
+com\gre\lxl\config\JpaConfig.class
+com\gre\lxl\system\dao\FairyCatRepository.class
+com\gre\lxl\system\entity\QFairyCat.class
+com\gre\lxl\system\entity\FairyAdmin.class
+com\gre\lxl\system\dao\FairyAdminRepository.class
+com\gre\lxl\system\dao\ctm\IFairyAdminRepository.class
+com\gre\lxl\system\dto\FairyCatDTO.class
+com\gre\lxl\system\entity\QFairyAdmin.class
+com\gre\lxl\system\entity\FairyCat.class
+com\gre\lxl\system\dto\FairyAdminDTO.class
+com\gre\lxl\system\dao\ctm\IFairyCatRepository.class
+com\gre\lxl\system\dto\User.class

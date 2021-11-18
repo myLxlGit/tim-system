@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad012209-2d0a-42a6-8c88-1854866bb41d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\respository" />
+        <option name="mavenHome" value="D:/Work/maven/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\Work\maven\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProjectId" id="1tjjQQ00gGGuXiRVPe9sULiRteu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gre.lxl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\test\lxl-long\lxl-framework\src\main\resources\mappper\compatible" />
+      <recent name="E:\test\lxl-long\lxl-workflow\src\main\resources\processes" />
+      <recent name="E:\test\lxl-long\lxl-workflow\src\main\java\com\gre\lxl\workflow\config" />
+      <recent name="E:\test\lxl-long\lxl-flag\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gre.lxl.utils" />
+      <recent name="com.gre.lxl.framework.system.login.vo" />
+      <recent name="com.gre.lxl.framework.system.login.filter" />
+      <recent name="com.gre.lxl.common.core.domain" />
+      <recent name="com.gre.lxl.framework.system.login.compatible.mappper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\test\lxl-long\lxl-framework\src\main\resources\mappping" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LxlFlagApplication">
+    <configuration name="TestApplication.save333Exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lxl-flag" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gre.lxl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gre.lxl" />
+      <option name="MAIN_CLASS_NAME" value="com.gre.lxl.TestApplication" />
+      <option name="METHOD_NAME" value="save333Exception" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lxl-flag" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gre.lxl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gre.lxl" />
+      <option name="MAIN_CLASS_NAME" value="com.gre.lxl.TestApplication" />
+      <option name="METHOD_NAME" value="testCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication.testEnum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lxl-flag" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gre.lxl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gre.lxl" />
+      <option name="MAIN_CLASS_NAME" value="com.gre.lxl.TestApplication" />
+      <option name="METHOD_NAME" value="testEnum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication.testIr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lxl-flag" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gre.lxl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gre.lxl" />
+      <option name="MAIN_CLASS_NAME" value="com.gre.lxl.TestApplication" />
+      <option name="METHOD_NAME" value="testIr" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication.timeFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lxl-flag" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gre.lxl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gre.lxl" />
+      <option name="MAIN_CLASS_NAME" value="com.gre.lxl.TestApplication" />
+      <option name="METHOD_NAME" value="timeFormat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ic-workFlow" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ic-workFlow" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LxlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lxl-framework" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gre.lxl.LxlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LxlCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lxl-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gre.lxl.lxlcommon.LxlCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LxlFlagApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lxl-flag" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gre.lxl.LxlFlagApplication" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LxlWorkflowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lxl-workflow" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gre.lxlworkflow.LxlWorkflowApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestApplication.save333Exception" />
+      <item itemvalue="JUnit.TestApplication.testEnum" />
+      <item itemvalue="JUnit.TestApplication.testCount" />
+      <item itemvalue="JUnit.TestApplication.testIr" />
+      <item itemvalue="JUnit.TestApplication.timeFormat" />
+      <item itemvalue="Spring Boot.LxlFlagApplication" />
+      <item itemvalue="Spring Boot.LxlWorkflowApplication" />
+      <item itemvalue="Spring Boot.LxlCommonApplication" />
+      <item itemvalue="Spring Boot.LxlApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestApplication.timeFormat" />
+        <item itemvalue="JUnit.TestApplication.save333Exception" />
+        <item itemvalue="JUnit.TestApplication.testEnum" />
+        <item itemvalue="JUnit.TestApplication.testIr" />
+        <item itemvalue="JUnit.TestApplication.testCount" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad012209-2d0a-42a6-8c88-1854866bb41d" name="Default Changelist" comment="" />
+      <created>1623289375021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623289375021</updated>
+      <workItem from="1623289378563" duration="227000" />
+      <workItem from="1623289610691" duration="2595000" />
+      <workItem from="1623292217050" duration="3623000" />
+      <workItem from="1623312741480" duration="6119000" />
+      <workItem from="1623377294528" duration="8390000" />
+      <workItem from="1623403070558" duration="1107000" />
+      <workItem from="1623406244447" duration="300000" />
+      <workItem from="1623656835709" duration="5076000" />
+      <workItem from="1623720153760" duration="9652000" />
+      <workItem from="1624261675637" duration="5253000" />
+      <workItem from="1624323571056" duration="498000" />
+      <workItem from="1624325147993" duration="24553000" />
+      <workItem from="1624410646328" duration="2938000" />
+      <workItem from="1624848601969" duration="2089000" />
+      <workItem from="1624864432370" duration="1969000" />
+      <workItem from="1625652280009" duration="2814000" />
+      <workItem from="1625817610064" duration="74000" />
+      <workItem from="1625818283734" duration="602000" />
+      <workItem from="1627609236297" duration="2455000" />
+      <workItem from="1629770757864" duration="15953000" />
+      <workItem from="1629853843009" duration="5812000" />
+      <workItem from="1629941172418" duration="5178000" />
+      <workItem from="1632541277355" duration="8000" />
+      <workItem from="1632562985161" duration="5441000" />
+      <workItem from="1632617983115" duration="35000" />
+      <workItem from="1632635744317" duration="171000" />
+      <workItem from="1632635921727" duration="13000" />
+      <workItem from="1632635940527" duration="2429000" />
+      <workItem from="1632727908426" duration="734000" />
+      <workItem from="1633675987789" duration="2414000" />
+      <workItem from="1633850717322" duration="2400000" />
+      <workItem from="1633914382732" duration="19000" />
+      <workItem from="1633932902559" duration="4829000" />
+      <workItem from="1634284246335" duration="17000" />
+      <workItem from="1634871293292" duration="277000" />
+      <workItem from="1635145980971" duration="608000" />
+      <workItem from="1635330430279" duration="1760000" />
+      <workItem from="1635936105846" duration="866000" />
+      <workItem from="1635989662552" duration="19581000" />
+      <workItem from="1636074049379" duration="8033000" />
+      <workItem from="1636273306327" duration="6546000" />
+      <workItem from="1636333990929" duration="5989000" />
+      <workItem from="1636420349792" duration="955000" />
+      <workItem from="1636421827334" duration="1345000" />
+      <workItem from="1636438713944" duration="4370000" />
+      <workItem from="1636680011294" duration="725000" />
+      <workItem from="1636708938096" duration="2944000" />
+      <workItem from="1636943072572" duration="11521000" />
+      <workItem from="1637025368291" duration="22199000" />
+      <workItem from="1637113226762" duration="10039000" />
+      <workItem from="1637197828594" duration="7894000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="965" y="305" key="#Assign_Data_Sources" timestamp="1629792049211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="965" y="305" key="#Assign_Data_Sources/0.0.1536.824@0.0.1536.824" timestamp="1629792049211" />
+    <state x="141" y="0" key="#Project_Structure" timestamp="1632563780404">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="141" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1632563780404" />
+    <state x="574" y="118" width="388" height="652" key="#com.intellij.ide.util.MemberChooser" timestamp="1637207189476">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" width="388" height="652" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1637207189476" />
+    <state x="718" y="299" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1629804169164">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="718" y="299" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1629804169164" />
+    <state x="544" y="279" width="448" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1632563034310">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="544" y="279" width="448" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1632563034310" />
+    <state width="781" height="466" key="DebuggerActiveHint" timestamp="1637206829401">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="781" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1637206829401" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1637219056875">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1637219056875" />
+    <state width="1493" height="263" key="GridCell.Tab.0.bottom" timestamp="1637206968648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1637206968648" />
+    <state width="1493" height="263" key="GridCell.Tab.0.center" timestamp="1637206968648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1637206968648" />
+    <state width="1493" height="263" key="GridCell.Tab.0.left" timestamp="1637206968648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1637206968648" />
+    <state width="1493" height="263" key="GridCell.Tab.0.right" timestamp="1637206968648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1637206968648" />
+    <state width="1493" height="263" key="GridCell.Tab.1.bottom" timestamp="1637207117943">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1637207117943" />
+    <state width="1493" height="263" key="GridCell.Tab.1.center" timestamp="1637207117943">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1637207117943" />
+    <state width="1493" height="263" key="GridCell.Tab.1.left" timestamp="1637207117943">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1637207117943" />
+    <state width="1493" height="263" key="GridCell.Tab.1.right" timestamp="1637207117943">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1637207117943" />
+    <state width="1493" height="263" key="GridCell.Tab.2.bottom" timestamp="1637206968513">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1637206968513" />
+    <state width="1493" height="263" key="GridCell.Tab.2.center" timestamp="1637206968513">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1637206968513" />
+    <state width="1493" height="263" key="GridCell.Tab.2.left" timestamp="1637206968513">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1637206968513" />
+    <state width="1493" height="263" key="GridCell.Tab.2.right" timestamp="1637206968513">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="263" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1637206968513" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1637030410894">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1637030410894" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1636946646645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1636946646645" />
+    <state x="585" y="196" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1635331484172">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="585" y="196" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1635331484172" />
+    <state x="313" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1629804935287">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="313" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1629804935287" />
+    <state x="451" y="191" width="855" height="608" key="find.popup" timestamp="1637030736874">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="451" y="191" width="855" height="608" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1637030736874" />
+    <state x="82" y="49" key="new project wizard" timestamp="1629773329633">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="82" y="49" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1629773329633" />
+    <state x="548" y="158" key="refactoring.ChangeSignatureDialog" timestamp="1636711258769">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="158" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1636711258769" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1637205461252">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1637205461252" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1637205644069">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1637205644069" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lxl-framework/src/main/java/com/gre/lxl/framework/system/login/compatible/service/CompatibleUserService.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lxl-framework/src/main/java/com/gre/lxl/framework/system/login/filter/TimAuthProvider.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lxl-framework/src/main/java/com/gre/lxl/framework/system/login/filter/TimAuthFilter.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="builder.toString()" language="JAVA" />
+      </configuration>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="new String(encode,StandardCharsets.UTF_8)" language="JAVA" />
+        <watch expression="mode.name()" language="JAVA" />
+        <watch expression="req.getMethod()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

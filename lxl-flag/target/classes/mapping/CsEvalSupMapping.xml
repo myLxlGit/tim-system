@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gre.lxl.mapper.CsEvalSupMapper">
+
+
+
+    <select id="selectSup" resultType="com.gre.lxl.system.dto.CsEvalSup">
+        select
+        ID,
+        EVAL_ID,
+        SUP_NAME
+        FROM
+        CS_EVAL_SUP
+        <where>
+            <if test="sup.evalId != null and sup.evalId != ''">
+                EVAL_ID = #{sup.evalId,jdbcType=INTEGER}
+            </if>
+        </where>
+    </select>
+</mapper>

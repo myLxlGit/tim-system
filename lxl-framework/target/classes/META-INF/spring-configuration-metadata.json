@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.gre.lxl.framework.system.app.domain.AppConfig",
+      "sourceType": "com.gre.lxl.framework.system.app.domain.AppConfig"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

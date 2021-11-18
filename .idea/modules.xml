@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lxl-common/lxl-common.iml" filepath="$PROJECT_DIR$/lxl-common/lxl-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lxl-flag/lxl-flag.iml" filepath="$PROJECT_DIR$/lxl-flag/lxl-flag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lxl-framework/lxl-framework.iml" filepath="$PROJECT_DIR$/lxl-framework/lxl-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lxl-long.iml" filepath="$PROJECT_DIR$/lxl-long.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lxl-system/lxl-system.iml" filepath="$PROJECT_DIR$/lxl-system/lxl-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lxl-workflow/lxl-workflow.iml" filepath="$PROJECT_DIR$/lxl-workflow/lxl-workflow.iml" />
+    </modules>
+  </component>
+</project>

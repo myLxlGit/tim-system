@@ -1,0 +1,480 @@
+09:55:46.267 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 28588 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+09:55:46.273 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+09:55:48.174 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+09:55:48.174 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:55:48.174 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+09:55:48.318 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:55:48.457 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+09:55:48.606 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+09:55:48.881 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:55:48.942 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+09:55:49.098 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:55:49.289 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+09:55:50.005 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:55:52.146 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+09:55:52.212 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+09:55:52.214 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+09:55:52.214 [Thread-15] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+09:55:52.214 [Thread-14] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+09:55:52.215 [Thread-16] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+09:55:53.993 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9001"]
+09:55:54.031 [main] INFO  c.g.l.LxlFlagApplication - [logStarted,61] - Started LxlFlagApplication in 8.164 seconds (JVM running for 9.411)
+09:55:54.033 [main] INFO  c.g.l.f.r.c.StartConfig - [run,21] - 测试ApplicationRunner打印你一定猜不到吧
+09:55:54.033 [main] INFO  c.g.l.f.r.c.StartConfig - [run,22] - 测试appId:123456
+09:55:54.033 [main] INFO  c.g.l.f.r.c.StartConfig - [run,23] - 测试appSecret:456789
+10:56:59.220 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+10:56:59.220 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+10:56:59.220 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+10:56:59.220 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+10:56:59.226 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+10:57:42.207 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 5808 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+10:57:42.210 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+10:57:44.084 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+10:57:44.084 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:57:44.085 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+10:57:44.234 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:57:44.374 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+10:57:44.549 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+10:57:44.827 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:57:44.899 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+10:57:45.081 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:57:45.251 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+10:57:45.893 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:57:48.275 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+10:57:48.325 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+10:57:48.326 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+10:57:48.327 [Thread-14] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+10:57:48.327 [Thread-13] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+10:57:48.327 [Thread-15] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+10:57:49.242 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+10:57:49.243 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+10:57:49.243 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+10:57:49.243 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+10:57:49.261 [main] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+10:57:49.263 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+11:15:54.037 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 22976 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+11:15:54.040 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+11:15:55.790 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+11:15:55.791 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:15:55.791 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+11:15:55.935 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:15:56.063 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:15:56.221 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:15:56.503 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:15:56.565 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+11:15:56.723 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:15:56.905 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:15:57.540 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:15:59.685 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+11:15:59.729 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+11:15:59.730 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:15:59.731 [Thread-13] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+11:15:59.731 [Thread-15] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+11:15:59.731 [Thread-14] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+11:16:00.436 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:16:00.437 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+11:16:00.437 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+11:16:00.437 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+11:16:00.447 [main] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+11:16:00.448 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+11:19:09.983 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 14828 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+11:19:09.986 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+11:19:11.788 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+11:19:11.788 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:19:11.788 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+11:19:11.940 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:19:12.075 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:19:12.220 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:19:12.472 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:19:12.542 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+11:19:12.707 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:19:12.881 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:19:13.587 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:19:15.933 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+11:19:15.997 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+11:19:15.998 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:19:15.999 [Thread-12] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+11:19:15.999 [Thread-13] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+11:19:15.999 [Thread-14] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+11:19:16.767 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:19:16.768 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+11:19:16.768 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+11:19:16.768 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+11:19:16.778 [main] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+11:19:16.780 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+11:21:51.454 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 5228 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+11:21:51.457 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+11:21:53.202 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+11:21:53.203 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:21:53.203 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+11:21:53.345 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:21:53.469 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:21:53.610 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:21:53.865 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:21:53.925 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+11:21:54.063 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:21:54.217 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:21:54.848 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:21:56.965 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+11:21:57.163 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+11:21:57.164 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:21:57.165 [Thread-15] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+11:21:57.165 [Thread-16] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+11:21:57.165 [Thread-14] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+11:21:57.716 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:21:57.716 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+11:21:57.716 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+11:21:57.716 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+11:21:57.726 [main] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+11:21:57.728 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+11:23:03.847 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 27016 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+11:23:03.850 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+11:23:06.064 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+11:23:06.065 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:23:06.065 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+11:23:06.213 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:23:06.343 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:23:06.489 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:23:06.750 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:23:06.813 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+11:23:06.957 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:23:07.120 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:23:07.756 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:23:09.484 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+11:23:09.528 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+11:23:09.529 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:23:09.530 [Thread-13] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+11:23:09.530 [Thread-14] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+11:23:09.530 [Thread-12] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+11:23:10.225 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:23:10.225 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+11:23:10.225 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+11:23:10.225 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+11:23:10.235 [main] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+11:23:10.237 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+11:27:43.398 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 956 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+11:27:43.401 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+11:27:45.153 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+11:27:45.153 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:27:45.154 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+11:27:45.308 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:27:45.434 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:27:45.576 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:27:45.831 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:27:45.890 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+11:27:46.037 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:27:46.190 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:27:46.814 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:27:48.898 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+11:27:49.090 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+11:27:49.091 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:27:49.092 [Thread-15] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+11:27:49.092 [Thread-16] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+11:27:49.092 [Thread-14] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+11:27:49.642 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:27:49.642 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+11:27:49.642 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+11:27:49.642 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+11:27:49.653 [main] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+11:27:49.655 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+11:30:35.275 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 1912 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+11:30:35.278 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+11:30:37.028 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+11:30:37.029 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:30:37.029 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+11:30:37.179 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:30:37.309 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:30:37.450 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:30:37.703 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:30:37.766 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+11:30:37.910 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:30:38.064 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:30:38.697 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:30:40.419 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+11:30:40.618 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+11:30:40.619 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:30:40.620 [Thread-15] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+11:30:40.620 [Thread-14] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+11:30:40.620 [Thread-16] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+11:30:41.181 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:30:41.181 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+11:30:41.181 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+11:30:41.181 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+11:30:41.191 [main] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+11:30:41.193 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+11:33:12.385 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 22608 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+11:33:12.388 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+11:33:14.219 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+11:33:14.219 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:33:14.219 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+11:33:14.367 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:33:14.500 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:33:14.647 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:33:14.900 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:33:14.960 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+11:33:15.102 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:33:15.269 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:33:15.900 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:33:17.987 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+11:33:18.028 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+11:33:18.029 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:33:18.030 [Thread-10] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+11:33:18.030 [Thread-9] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+11:33:18.030 [Thread-11] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+11:33:18.763 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:33:18.763 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+11:33:18.763 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+11:33:18.763 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+11:33:18.773 [main] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+11:37:42.506 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 17928 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+11:37:42.509 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+11:37:44.241 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+11:37:44.242 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:37:44.242 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+11:37:44.383 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:37:44.513 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:37:44.655 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:37:44.905 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:37:44.965 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+11:37:45.103 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:37:45.264 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:37:45.885 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:37:48.072 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+11:37:48.115 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+11:37:48.116 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:37:48.117 [Thread-14] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+11:37:48.117 [Thread-13] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+11:37:48.117 [Thread-15] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+11:38:02.893 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9001"]
+11:38:02.931 [main] INFO  c.g.l.LxlFlagApplication - [logStarted,61] - Started LxlFlagApplication in 20.818 seconds (JVM running for 22.033)
+11:38:02.933 [main] INFO  c.g.l.f.r.c.StartConfig - [run,21] - 测试ApplicationRunner打印你一定猜不到吧
+11:38:02.933 [main] INFO  c.g.l.f.r.c.StartConfig - [run,22] - 测试appId:123456
+11:38:02.933 [main] INFO  c.g.l.f.r.c.StartConfig - [run,23] - 测试appSecret:456789
+11:40:19.851 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:53:00.486 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:53:00.487 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+11:53:00.487 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+11:53:00.487 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+11:53:00.498 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+11:53:09.487 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 23496 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+11:53:09.493 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+11:53:11.592 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+11:53:11.593 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:53:11.593 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+11:53:11.745 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:53:11.875 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:53:12.017 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:53:12.271 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:53:12.330 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+11:53:12.475 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:53:12.640 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:53:13.295 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:53:15.035 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+11:53:15.231 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+11:53:15.232 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+11:53:15.233 [Thread-14] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+11:53:15.233 [Thread-15] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+11:53:15.233 [Thread-16] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+11:53:16.855 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9001"]
+11:53:16.891 [main] INFO  c.g.l.LxlFlagApplication - [logStarted,61] - Started LxlFlagApplication in 7.798 seconds (JVM running for 9.028)
+11:53:16.893 [main] INFO  c.g.l.f.r.c.StartConfig - [run,21] - 测试ApplicationRunner打印你一定猜不到吧
+11:53:16.893 [main] INFO  c.g.l.f.r.c.StartConfig - [run,22] - 测试appId:123456
+11:53:16.893 [main] INFO  c.g.l.f.r.c.StartConfig - [run,23] - 测试appSecret:456789
+11:53:23.065 [http-nio-9001-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:53:23.171 [http-nio-9001-exec-2] INFO  c.g.l.f.s.l.f.TimAuthSecurityConfig - [lambda$configure$1,53] - 登陆失败
+11:54:41.565 [http-nio-9001-exec-7] INFO  c.g.l.f.s.l.f.TimAuthSecurityConfig - [lambda$configure$1,53] - 登陆失败
+11:56:41.732 [http-nio-9001-exec-6] INFO  c.g.l.f.s.l.f.TimAuthSecurityConfig - [lambda$configure$1,53] - 登陆失败
+13:44:53.492 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+13:44:53.492 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+13:44:53.492 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+13:44:53.492 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+13:44:53.499 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+13:45:03.859 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 26124 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+13:45:03.862 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+13:45:05.713 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+13:45:05.714 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:45:05.714 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+13:45:05.862 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:45:06.029 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+13:45:06.171 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+13:45:06.427 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:45:06.489 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+13:45:06.629 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:45:06.796 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+13:45:07.442 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:45:09.147 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+13:45:09.356 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+13:45:09.357 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+13:45:09.358 [Thread-15] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+13:45:09.358 [Thread-16] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+13:45:09.358 [Thread-14] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+13:45:11.303 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9001"]
+13:45:11.362 [main] INFO  c.g.l.LxlFlagApplication - [logStarted,61] - Started LxlFlagApplication in 7.933 seconds (JVM running for 9.319)
+13:45:11.366 [main] INFO  c.g.l.f.r.c.StartConfig - [run,21] - 测试ApplicationRunner打印你一定猜不到吧
+13:45:11.366 [main] INFO  c.g.l.f.r.c.StartConfig - [run,22] - 测试appId:123456
+13:45:11.366 [main] INFO  c.g.l.f.r.c.StartConfig - [run,23] - 测试appSecret:456789
+13:46:21.117 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:47:22.395 [http-nio-9001-exec-1] INFO  c.g.l.f.s.l.f.TimAuthSecurityConfig - [lambda$configure$1,53] - 登陆失败
+13:54:26.174 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+13:54:26.174 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+13:54:26.174 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+13:54:26.174 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+13:54:26.183 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+13:54:36.817 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 23024 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+13:54:36.820 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+13:54:38.671 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+13:54:38.672 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:54:38.672 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+13:54:38.821 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:54:38.955 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+13:54:39.101 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+13:54:39.359 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:54:39.419 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+13:54:39.579 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:54:39.751 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+13:54:40.433 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:54:42.625 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+13:54:42.676 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+13:54:42.677 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+13:54:42.678 [Thread-15] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+13:54:42.678 [Thread-14] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+13:54:42.678 [Thread-16] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+13:54:44.537 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9001"]
+13:54:44.576 [main] INFO  c.g.l.LxlFlagApplication - [logStarted,61] - Started LxlFlagApplication in 8.164 seconds (JVM running for 9.475)
+13:54:44.578 [main] INFO  c.g.l.f.r.c.StartConfig - [run,21] - 测试ApplicationRunner打印你一定猜不到吧
+13:54:44.578 [main] INFO  c.g.l.f.r.c.StartConfig - [run,22] - 测试appId:123456
+13:54:44.578 [main] INFO  c.g.l.f.r.c.StartConfig - [run,23] - 测试appSecret:456789
+13:54:52.931 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:54:53.051 [http-nio-9001-exec-1] INFO  c.g.l.f.s.l.f.TimAuthSecurityConfig - [lambda$configure$1,53] - 登陆失败
+14:11:12.110 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:11:12.110 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+14:11:12.110 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+14:11:12.110 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+14:11:12.120 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+14:11:31.416 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 8944 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+14:11:31.419 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+14:11:33.278 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+14:11:33.279 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:11:33.279 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+14:11:33.422 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:11:33.547 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:11:33.691 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+14:11:33.974 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:11:34.036 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:11:34.187 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:11:34.342 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:11:35.060 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:11:37.313 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+14:11:37.530 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+14:11:37.531 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:11:37.532 [Thread-14] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+14:11:37.532 [Thread-15] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+14:11:37.532 [Thread-16] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+14:11:39.188 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9001"]
+14:11:39.225 [main] INFO  c.g.l.LxlFlagApplication - [logStarted,61] - Started LxlFlagApplication in 8.197 seconds (JVM running for 9.477)
+14:11:39.227 [main] INFO  c.g.l.f.r.c.StartConfig - [run,21] - 测试ApplicationRunner打印你一定猜不到吧
+14:11:39.227 [main] INFO  c.g.l.f.r.c.StartConfig - [run,22] - 测试appId:123456
+14:11:39.227 [main] INFO  c.g.l.f.r.c.StartConfig - [run,23] - 测试appSecret:456789
+14:13:27.499 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:13:27.500 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+14:13:27.500 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+14:13:27.500 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+14:13:27.509 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+14:13:38.634 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 29780 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+14:13:38.637 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+14:13:40.433 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+14:13:40.433 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:13:40.434 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+14:13:40.575 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:13:40.720 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:13:40.861 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+14:13:41.116 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:13:41.177 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:13:41.318 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:13:41.471 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:13:42.116 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:13:43.872 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+14:13:44.071 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+14:13:44.072 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:13:44.073 [Thread-13] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+14:13:44.073 [Thread-14] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+14:13:44.073 [Thread-15] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+14:13:45.701 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9001"]
+14:13:45.737 [main] INFO  c.g.l.LxlFlagApplication - [logStarted,61] - Started LxlFlagApplication in 7.521 seconds (JVM running for 8.751)
+14:13:45.740 [main] INFO  c.g.l.f.r.c.StartConfig - [run,21] - 测试ApplicationRunner打印你一定猜不到吧
+14:13:45.740 [main] INFO  c.g.l.f.r.c.StartConfig - [run,22] - 测试appId:123456
+14:13:45.740 [main] INFO  c.g.l.f.r.c.StartConfig - [run,23] - 测试appSecret:456789
+14:13:50.754 [http-nio-9001-exec-3] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:13:50.892 [http-nio-9001-exec-3] INFO  c.g.l.f.s.l.f.TimAuthSecurityConfig - [lambda$configure$1,53] - 登陆失败
+14:41:14.130 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:41:14.131 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+14:41:14.131 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+14:41:14.131 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+14:41:14.140 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+14:41:33.927 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 31096 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+14:41:33.930 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+14:41:35.844 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+14:41:35.844 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:41:35.845 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+14:41:35.988 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:41:36.114 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:41:36.260 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+14:41:36.526 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:41:36.589 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:41:36.736 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:41:36.919 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:41:37.562 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:41:39.642 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+14:41:39.685 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+14:41:39.686 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:41:39.687 [Thread-14] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+14:41:39.687 [Thread-16] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+14:41:39.687 [Thread-15] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+14:41:41.494 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9001"]
+14:41:41.535 [main] INFO  c.g.l.LxlFlagApplication - [logStarted,61] - Started LxlFlagApplication in 8.008 seconds (JVM running for 9.278)
+14:41:41.538 [main] INFO  c.g.l.f.r.c.StartConfig - [run,21] - 测试ApplicationRunner打印你一定猜不到吧
+14:41:41.538 [main] INFO  c.g.l.f.r.c.StartConfig - [run,22] - 测试appId:123456
+14:41:41.538 [main] INFO  c.g.l.f.r.c.StartConfig - [run,23] - 测试appSecret:456789
+14:41:52.648 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:41:52.792 [http-nio-9001-exec-1] INFO  c.g.l.f.s.l.f.TimAuthSecurityConfig - [lambda$configure$1,53] - 登陆失败
+14:44:02.264 [http-nio-9001-exec-5] INFO  c.g.l.f.s.l.f.TimAuthSecurityConfig - [lambda$configure$1,53] - 登陆失败
+14:44:23.694 [http-nio-9001-exec-6] INFO  c.g.l.f.s.l.f.TimAuthSecurityConfig - [lambda$configure$1,53] - 登陆失败
+14:51:14.603 [http-nio-9001-exec-10] INFO  c.g.l.f.s.l.f.TimAuthSecurityConfig - [lambda$configure$0,41] - 登录成功
+14:51:51.150 [http-nio-9001-exec-9] INFO  c.g.l.f.s.l.f.TimAuthSecurityConfig - [lambda$configure$0,41] - 登录成功
+14:54:23.357 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:54:23.357 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+14:54:23.357 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+14:54:23.357 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+14:54:23.367 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+14:54:44.323 [main] INFO  c.g.l.LxlFlagApplication - [logStarting,55] - Starting LxlFlagApplication using Java 1.8.0_31 on LAPTOP-LINC7R8B with PID 19364 (E:\test\lxl-long\lxl-flag\target\classes started by 39851 in E:\test\lxl-long)
+14:54:44.326 [main] INFO  c.g.l.LxlFlagApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+14:54:46.513 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9001"]
+14:54:46.513 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:54:46.513 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+14:54:46.661 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:54:46.789 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:54:46.931 [main] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+14:54:47.194 [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:54:47.255 [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:54:47.396 [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:54:47.553 [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:54:48.222 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:54:49.947 [main] INFO  o.a.e.c.DefaultActiviti5CompatibilityHandlerFactory - [createActiviti5CompatibilityHandler,38] - Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+14:54:49.994 [main] INFO  o.a.e.i.ProcessEngineImpl - [<init>,87] - ProcessEngine default created
+14:54:49.995 [main] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [start,169] - Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+14:54:49.996 [Thread-16] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,51] - {} starting to reset expired jobs
+14:54:49.996 [Thread-15] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,49] - {} starting to acquire async jobs due
+14:54:49.996 [Thread-14] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,45] - {} starting to acquire async jobs due
+14:54:51.760 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9001"]
+14:54:51.800 [main] INFO  c.g.l.LxlFlagApplication - [logStarted,61] - Started LxlFlagApplication in 7.916 seconds (JVM running for 9.353)
+14:54:51.802 [main] INFO  c.g.l.f.r.c.StartConfig - [run,21] - 测试ApplicationRunner打印你一定猜不到吧
+14:54:51.802 [main] INFO  c.g.l.f.r.c.StartConfig - [run,22] - 测试appId:123456
+14:54:51.802 [main] INFO  c.g.l.f.r.c.StartConfig - [run,23] - 测试appSecret:456789
+14:55:57.879 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:55:58.104 [http-nio-9001-exec-1] INFO  c.g.l.f.s.l.f.TimAuthSecurityConfig - [lambda$configure$0,41] - 登录成功
+16:53:43.623 [http-nio-9001-exec-5] INFO  c.g.l.f.s.l.f.TimAuthSecurityConfig - [lambda$configure$0,41] - 登录成功
+19:15:31.998 [SpringApplicationShutdownHook] INFO  o.a.e.i.a.DefaultAsyncJobExecutor - [shutdown,208] - Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+19:15:31.999 [activiti-reset-expired-jobs] INFO  o.a.e.i.a.ResetExpiredJobsRunnable - [run,99] - {} stopped resetting expired jobs
+19:15:31.999 [activiti-acquire-async-jobs] INFO  o.a.e.i.a.AcquireAsyncJobsDueRunnable - [run,115] - {} stopped async job due acquisition
+19:15:31.999 [activiti-acquire-timer-jobs] INFO  o.a.e.i.a.AcquireTimerJobsRunnable - [run,115] - {} stopped async job due acquisition
+19:15:32.015 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed

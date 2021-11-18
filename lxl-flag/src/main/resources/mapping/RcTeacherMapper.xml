@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gre.lxl.mapper.RcTeacherMapper">
+
+
+    <insert id="saveTeachers" useGeneratedKeys="false">
+        INSERT
+        INTO RC_TEACHER (
+        TEACHER_ID,
+        TEACHER_DEPARTMENT_ID,
+        TEACHER_NUMBER,
+        TEACHER_NAME,
+        TEACHER_PASSWORD
+        )
+        VALUES
+        <foreach collection="teachers" item="rcTeacher" separator=",">
+        (
+                #{rcTeacher.teacherId,jdbcType=INTEGER},
+                #{rcTeacher.teacherDepartmentId,jdbcType=INTEGER},
+                #{rcTeacher.teacherNumber,jdbcType=VARCHAR},
+                #{rcTeacher.teacherName,jdbcType=VARCHAR},
+                #{rcTeacher.teacherPassword,jdbcType=VARCHAR}
+        )
+        </foreach>
+    </insert>
+
+
+</mapper>

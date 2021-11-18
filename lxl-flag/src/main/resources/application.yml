@@ -1,0 +1,44 @@
+server:
+  port: 9001
+  tomcat:
+    max-http-form-post-size: 104857600
+#  servlet:
+#    context‐path: /
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rainng_course?useUnicode=true&characterEncoding=utf-8&useSSL=false&&nullCatalogMeansCurrent=true
+    username: root
+    password: root
+  #  redis:
+  #    host: localhost
+  #    port: 6379
+  #  session:
+  #    store-type: redis
+  #    timeout: 86400
+  jackson:
+    time-zone: Asia/Shanghai
+#  data:
+#    mongodb:
+#      uri: mongodb://localhost:27017/rainng_course
+  application:
+    name: security‐springboot
+
+mybatis-plus:
+  mapper-locations: classpath*:mapping/**/*.xml
+  type-aliases-package: com.gre.lxl.**.domain
+
+student:
+  name: 张三
+  age: 18
+
+# 日志配置
+logging:
+  level:
+    com.gre: debug
+    org.springframework: warn
+
+app:
+  appId: 123456
+  appSecret: 456789
