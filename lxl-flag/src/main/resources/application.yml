@@ -1,9 +1,12 @@
 server:
-  port: 9001
+  port: 9002
   tomcat:
     max-http-form-post-size: 104857600
 #  servlet:
 #    context‐path: /
+
+base:
+  url: 'http://10.4.27.142:18080'
 
 spring:
   datasource:
@@ -35,6 +38,8 @@ student:
 
 # 日志配置
 logging:
+  file:
+    path: /test/lxl-long
   level:
     com.gre: debug
     org.springframework: warn
@@ -42,3 +47,10 @@ logging:
 app:
   appId: 123456
   appSecret: 456789
+
+lc-cmb:
+  uid: N002987421
+  url: http://cdctest.cmburl.cn/cdcserver/api/v2
+  sm4key: VuAzSWQhsoNqzn0K
+  privateKey: NBtl7WnuUtA2v5FaebEkU0/Jj1IodLGT6lQqwkzmd2E=
+  bankPubKey: BNsIe9U0x8IeSe4h/dxUzVEz9pie0hDSfMRINRXc7s1UIXfkExnYECF4QqJ2SnHxLv3z/99gsfDQrQ6dzN5lZj0=

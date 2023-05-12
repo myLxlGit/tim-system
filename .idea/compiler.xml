@@ -8,20 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lxl-workflow" />
-        <module name="lxl-system" />
-        <module name="lxl-common" />
         <module name="lxl-flag" />
+        <module name="lxl-common" />
         <module name="lxl-framework" />
+        <module name="lxl-system" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ic-workFlow" target="1.5" />
-      <module name="lxl-common" target="1.8" />
-      <module name="lxl-flag" target="1.8" />
-      <module name="lxl-framework" target="1.8" />
-      <module name="lxl-long" target="1.8" />
-      <module name="lxl-system" target="1.8" />
-      <module name="lxl-workflow" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,7 +23,7 @@
       <module name="lxl-common" options="-parameters" />
       <module name="lxl-flag" options="-parameters" />
       <module name="lxl-framework" options="-parameters" />
-      <module name="lxl-long" options="-parameters" />
+      <module name="lxl-long" options="" />
       <module name="lxl-system" options="-parameters" />
       <module name="lxl-workflow" options="-parameters" />
     </option>

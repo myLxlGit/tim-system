@@ -3,7 +3,10 @@
 <mapper namespace="com.gre.lxl.mapper.CsPrjEvaluationExMapper">
 
     <select id="queryList" resultType="com.gre.lxl.domain.CsPrjEvaluationEx">
-        SELECT * FROM
+        SELECT
+        * ,
+        (select sysdate() from dual) as currentTime
+        FROM
         CS_PRJ_EVALUATION_EX
         WHERE
         CREATE_TIME BETWEEN str_to_date(#{format,jdbcType=VARCHAR},'%Y-%m-%d %H:%i:%s') AND sysdate()

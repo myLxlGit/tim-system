@@ -1,7 +1,453 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad012209-2d0a-42a6-8c88-1854866bb41d" name="Default Changelist" comment="" />
+    <list default="true" id="ad012209-2d0a-42a6-8c88-1854866bb41d" name="Default Changelist" comment="搭建基本">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-common/src/main/java/com/gre/lxl/common/core/domain/KvPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-common/src/main/java/com/gre/lxl/common/util/CreateFileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-common/src/main/java/com/gre/lxl/common/util/RestTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/MpiConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/atest/controller/AliTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/atest/domain/WuChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/atest/domain/WuLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/atest/service/AliTestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/atest/service/impl/AliTestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/constant/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/constant/ContentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/constant/HttpHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/constant/HttpMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/constant/HttpSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/constant/SystemHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/enmus/Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/utils/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/utils/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/utils/JSONUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/utils/MessageDigestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Aliyun/utils/SignUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Atest/domain/AllDar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Atest/domain/ChartParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Atest/domain/Lor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Atest/domain/Nor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Atest/domain/TrType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Atest/service/IFtrService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Atest/service/Zhujie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Atest/service/impl/DtrServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Atest/service/impl/GtrServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/Atest/service/impl/HtrServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/BillResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/DataEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/DayStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/FileNoticeReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/LpConfirmTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/MsgType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/async/AsyncManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/async/DelayOrderQueueManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/async/DelayOrderTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/async/DelayOrderWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/async/Threads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/async/factory/AsyncFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/async/factory/ThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/client/SocketDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/client/WebSocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/client/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/domain/ContractDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/domain/InnerParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/domain/SgDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/domain/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/fanshe/FvData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/fanshe/FvTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/ftp/controller/FtpTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/ftp/service/IFtpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/ftp/service/impl/FtpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/ftp/service/impl/FtpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/functionIn/BranchHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/functionIn/ThrowExceptionFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/functionIn/VUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/httpStudy/retrofit/controller/RetrofitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/httpStudy/retrofit/register/EyeSkySignInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/httpStudy/retrofit/register/RegisterSign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/httpStudy/retrofit/remote/RemoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/service/GrantTypeSerive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/service/QueryGrantTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/system/Start2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/atest/LcAddQueryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/atest/LcAddTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/atest/LcAgreementNumberQueryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/atest/LcBusModQueryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/atest/LcChangeQueryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/atest/LcChangeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/atest/LcCreditListQueryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/atest/LcQueryDetailsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/atest/lcIssueInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/common/FunCodeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/common/LcCreditListQueryBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/common/Onb2dcqey1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/common/Onb2dcqez1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/common/SignatureBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/config/CmbConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/HeadReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/LcAddBodyReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/LcAddQueryBodyReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/LcAgreementNumberQueryBodyReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/LcBusModQueryBodyReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/LcChangeBodyReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/LcChangeQueryReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/LcIssueInitBodyReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/LcQueryBodyReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/Onb2dcadx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/Onb2dcmdx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/Onb2dcmlx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/Onb2dcmox1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/Onb2dcqlx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/Onb2dcqtx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/Onb2dctkx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/Onbdcconx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/Onbdcecsx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/Onbdcgodx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/Onbdcmstx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/RootMidNodeReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/request/RootReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/HeadResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/LcAddQueryResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/LcAgreementNumberQueryBodyResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/LcBusModQueryBodyResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/LcChangeBodyResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/LcChangeQueryBodyResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/LcIssueInitBodyResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/LcQueryBodyResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/Onb2dcmdz1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/Onb2dcmlz1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/Onb2dcmoz1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/Onb2dcopz1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/Onb2dcqlz1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/Onb2dcqtz1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/Onb2dctkz1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/RootMidNodeResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/response/RootResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/serive/ICmbClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/serive/impl/CmbClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/serive/impl/CmbClientServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/smDemo/DCCryptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/smDemo/DCHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/smDemo/GENKeyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/smDemo/ReqIdCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testCMB/smDemo/SMDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testDelay/DelayTestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testDelay/domain/DelayUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testDelay/domain/ReceiptDelayTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testTB/LoginUserV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testTB/PlanCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/testTB/SpotM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/ArithmeticUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/AsycService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/Base64DecodeMultipartFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/CustomBigDecimalConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/CustomDateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/EncryptionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/HolidayUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/HtmlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/MapUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/Md5Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/MpiUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/MultipartFileToFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/RSA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/SM4Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/SM4UtilsT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/Sha256Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/SignatureUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/XmlUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/sm4Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_core_5_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_crypto_5_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_http_5_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_73.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_infradna_tool_bridge_method_annotation_1_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysema_codegen_codegen_0_6_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysema_commons_mysema_commons_lang_0_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_jdbc_ojdbc8_21_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_querydsl_querydsl_apt_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_querydsl_querydsl_codegen_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_querydsl_querydsl_core_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_querydsl_querydsl_jpa_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_querydsl_querydsl_sql_4_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_api_2_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_impl_2_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_spi_2_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__eu_bitwalker_UserAgentUtils_1_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_65_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_65_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_65_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_65_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_65_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_65_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_converter_6_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_model_6_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_dmn_api_6_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_dmn_model_6_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_engine_6_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_form_api_6_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_form_model_6_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_image_generator_6_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_process_validation_6_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_6_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_boot_starter_basic_6_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_email_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_servicemix_bundles_org_apache_servicemix_bundles_javax_inject_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_46.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_46.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_46.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_core_compiler_ecj_4_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_32_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_reactive_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-common/lxl-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-common/lxl-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-common/src/main/java/com/gre/lxl/common/util/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-common/src/main/java/com/gre/lxl/common/util/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-common/target/classes/com/gre/lxl/common/core/controller/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-common/target/classes/com/gre/lxl/common/core/controller/BaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-common/target/classes/com/gre/lxl/common/util/DateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-common/target/classes/com/gre/lxl/common/util/DateUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/lxl-flag.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/lxl-flag.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/lxl-log/logs/sys-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/lxl-log/logs/sys-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/lxl-log/logs/sys-info.2021-09-25.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/lxl-log/logs/sys-info.2021-09-26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/lxl-log/logs/sys-info.2021-09-27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/lxl-log/logs/sys-info.2021-10-08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/lxl-log/logs/sys-info.2021-10-10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/lxl-log/logs/sys-info.2021-11-03.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/lxl-log/logs/sys-info.2021-11-04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/lxl-log/logs/sys-info.2021-11-05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/lxl-log/logs/sys-info.2021-11-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/lxl-log/logs/sys-info.2021-11-12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/lxl-log/logs/sys-info.2021-11-16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/lxl-log/logs/sys-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/lxl-log/logs/sys-info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/LxlFlagApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/LxlFlagApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/controller/DealReflectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/controller/DealReflectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/domain/CsPrjEvaluationEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/domain/CsPrjEvaluationEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/service/impl/CsPrjEvaluationExServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/service/impl/CsPrjEvaluationExServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/service/impl/SaveServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/service/impl/SaveServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/src/main/resources/mapping/CsPrjEvaluationExMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/src/main/resources/mapping/CsPrjEvaluationExMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/src/test/java/com/gre/lxl/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/src/test/java/com/gre/lxl/TestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/target/classes/com/gre/lxl/LxlFlagApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/target/classes/com/gre/lxl/LxlFlagApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/target/classes/com/gre/lxl/controller/DealReflectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/target/classes/com/gre/lxl/controller/DealReflectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/target/classes/com/gre/lxl/domain/CsPrjEvaluationEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/target/classes/com/gre/lxl/domain/CsPrjEvaluationEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/target/classes/com/gre/lxl/domain/dto/CsPrjEvaluationExDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/target/classes/com/gre/lxl/domain/dto/CsPrjEvaluationExDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/target/classes/com/gre/lxl/service/impl/CsPrjEvaluationExServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/target/classes/com/gre/lxl/service/impl/CsPrjEvaluationExServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/target/classes/com/gre/lxl/service/impl/SaveServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/target/classes/com/gre/lxl/service/impl/SaveServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/target/classes/com/gre/lxl/system/dao/ctm/impl/TestImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/target/classes/com/gre/lxl/system/dao/ctm/impl/TestImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/target/classes/mapping/CsPrjEvaluationExMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/target/classes/mapping/CsPrjEvaluationExMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/target/lxl-flag-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/target/lxl-flag-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/target/lxl-flag-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/target/lxl-flag-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-flag/target/test-classes/com/gre/lxl/TestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-flag/target/test-classes/com/gre/lxl/TestApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-framework/lxl-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-framework/lxl-framework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-framework/src/main/java/com/gre/lxl/framework/config/GlobalConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-framework/src/main/java/com/gre/lxl/framework/config/GlobalConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-framework/src/main/java/com/gre/lxl/framework/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-framework/src/main/java/com/gre/lxl/framework/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-framework/src/main/java/com/gre/lxl/framework/runner/config/StartConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-framework/src/main/java/com/gre/lxl/framework/runner/config/StartConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-framework/target/classes/com/gre/lxl/framework/config/GlobalConfiguration$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-framework/target/classes/com/gre/lxl/framework/config/GlobalConfiguration$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-framework/target/classes/com/gre/lxl/framework/config/GlobalConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-framework/target/classes/com/gre/lxl/framework/config/GlobalConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-framework/target/classes/com/gre/lxl/framework/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-framework/target/classes/com/gre/lxl/framework/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-framework/target/classes/com/gre/lxl/framework/runner/config/StartConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-framework/target/classes/com/gre/lxl/framework/runner/config/StartConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-error.2021-06-15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-error.2021-06-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-error.2021-07-30.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-error.2021-09-25.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-error.2021-11-04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-error.2021-11-05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-error.2021-11-07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-error.2021-11-12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-error.2021-11-15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-error.2021-11-16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-error.2021-11-17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-log/logs/sys-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-info.2021-06-15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-info.2021-06-21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-info.2021-06-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-info.2021-09-25.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-info.2021-10-27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-info.2021-11-04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-info.2021-11-05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-info.2021-11-07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-info.2021-11-08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-info.2021-11-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-info.2021-11-12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-info.2021-11-15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-info.2021-11-16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-info.2021-11-17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-log/logs/sys-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-log/logs/sys-info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-long.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-long.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-system/lxl-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-system/lxl-system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxl-workflow/lxl-workflow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lxl-workflow/lxl-workflow.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +466,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -44,51 +498,174 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;23ac9d93f33523fa877155f1dc76c64b&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.gre.lxl" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\test\lxl-long\lxl-flag\src\main\java\com\gre\lxl\testCMB\smDemo" />
+      <recent name="E:\test\lxl-long\lxl-flag\src\main\java\com\gre\lxl" />
+      <recent name="E:\test\lxl-long\lxl-flag\src\main\java\com\gre\lxl\Aliyun" />
       <recent name="E:\test\lxl-long\lxl-framework\src\main\resources\mappper\compatible" />
       <recent name="E:\test\lxl-long\lxl-workflow\src\main\resources\processes" />
-      <recent name="E:\test\lxl-long\lxl-workflow\src\main\java\com\gre\lxl\workflow\config" />
-      <recent name="E:\test\lxl-long\lxl-flag\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.gre.lxl.utils" />
-      <recent name="com.gre.lxl.framework.system.login.vo" />
-      <recent name="com.gre.lxl.framework.system.login.filter" />
-      <recent name="com.gre.lxl.common.core.domain" />
-      <recent name="com.gre.lxl.framework.system.login.compatible.mappper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\test\lxl-long\lxl-framework\src\main\resources\mappping" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gre.lxl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gre.lxl.Atest.domain" />
+      <recent name="com.gre.lxl" />
+      <recent name="com.gre.lxl.utils" />
+      <recent name="com.gre.lxl.common.util" />
+      <recent name="com.gre.lxl.testDelay.domain" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.LxlFlagApplication">
-    <configuration name="TestApplication.save333Exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestApplication.ihdsaih">
+    <configuration name="LcAddQueryTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gre.lxl.testCMB.atest.LcAddQueryTest" />
+      <module name="lxl-flag" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gre.lxl.testCMB.atest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LcAddTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gre.lxl.testCMB.atest.LcAddTest" />
+      <module name="lxl-flag" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gre.lxl.testCMB.atest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LcAgreementNumberQueryTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gre.lxl.testCMB.atest.LcAgreementNumberQueryTest" />
+      <module name="lxl-flag" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gre.lxl.testCMB.atest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LcBusModQueryTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gre.lxl.testCMB.atest.LcBusModQueryTest" />
+      <module name="lxl-flag" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gre.lxl.testCMB.atest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LcChangeQueryTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gre.lxl.testCMB.atest.LcChangeQueryTest" />
+      <module name="lxl-flag" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gre.lxl.testCMB.atest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LcChangeTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gre.lxl.testCMB.atest.LcChangeTest" />
+      <module name="lxl-flag" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gre.lxl.testCMB.atest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LcCreditListQueryTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gre.lxl.testCMB.atest.LcCreditListQueryTest" />
+      <module name="lxl-flag" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gre.lxl.testCMB.atest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LcQueryDetailsTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gre.lxl.testCMB.atest.LcQueryDetailsTest" />
+      <module name="lxl-flag" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gre.lxl.testCMB.atest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lcIssueInitTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gre.lxl.testCMB.atest.lcIssueInitTest" />
+      <module name="lxl-flag" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gre.lxl.testCMB.atest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication.D" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lxl-flag" />
       <extension name="coverage">
         <pattern>
@@ -98,13 +675,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gre.lxl" />
       <option name="MAIN_CLASS_NAME" value="com.gre.lxl.TestApplication" />
-      <option name="METHOD_NAME" value="save333Exception" />
+      <option name="METHOD_NAME" value="D" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApplication.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestApplication.D1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lxl-flag" />
       <extension name="coverage">
         <pattern>
@@ -114,13 +691,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gre.lxl" />
       <option name="MAIN_CLASS_NAME" value="com.gre.lxl.TestApplication" />
-      <option name="METHOD_NAME" value="testCount" />
+      <option name="METHOD_NAME" value="D1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApplication.testEnum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestApplication.ihdsaih" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lxl-flag" />
       <extension name="coverage">
         <pattern>
@@ -130,13 +707,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gre.lxl" />
       <option name="MAIN_CLASS_NAME" value="com.gre.lxl.TestApplication" />
-      <option name="METHOD_NAME" value="testEnum" />
+      <option name="METHOD_NAME" value="ihdsaih" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApplication.testIr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestApplication.rrr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lxl-flag" />
       <extension name="coverage">
         <pattern>
@@ -146,13 +723,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gre.lxl" />
       <option name="MAIN_CLASS_NAME" value="com.gre.lxl.TestApplication" />
-      <option name="METHOD_NAME" value="testIr" />
+      <option name="METHOD_NAME" value="rrr" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApplication.timeFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestApplication.testII" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lxl-flag" />
       <extension name="coverage">
         <pattern>
@@ -162,7 +739,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gre.lxl" />
       <option name="MAIN_CLASS_NAME" value="com.gre.lxl.TestApplication" />
-      <option name="METHOD_NAME" value="timeFormat" />
+      <option name="METHOD_NAME" value="testII" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,13 +747,6 @@
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ic-workFlow" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,33 +754,6 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="ic-workFlow" />
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -233,7 +776,6 @@
       <module name="lxl-flag" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gre.lxl.LxlFlagApplication" />
       <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,11 +788,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestApplication.save333Exception" />
-      <item itemvalue="JUnit.TestApplication.testEnum" />
-      <item itemvalue="JUnit.TestApplication.testCount" />
-      <item itemvalue="JUnit.TestApplication.testIr" />
-      <item itemvalue="JUnit.TestApplication.timeFormat" />
+      <item itemvalue="Application.LcQueryDetailsTest" />
+      <item itemvalue="Application.lcIssueInitTest" />
+      <item itemvalue="Application.LcBusModQueryTest" />
+      <item itemvalue="Application.LcChangeTest" />
+      <item itemvalue="Application.LcChangeQueryTest" />
+      <item itemvalue="Application.LcCreditListQueryTest" />
+      <item itemvalue="Application.LcAgreementNumberQueryTest" />
+      <item itemvalue="Application.LcAddTest" />
+      <item itemvalue="Application.LcAddQueryTest" />
+      <item itemvalue="JUnit.TestApplication.ihdsaih" />
+      <item itemvalue="JUnit.TestApplication.rrr" />
+      <item itemvalue="JUnit.TestApplication.testII" />
+      <item itemvalue="JUnit.TestApplication.D" />
+      <item itemvalue="JUnit.TestApplication.D1" />
       <item itemvalue="Spring Boot.LxlFlagApplication" />
       <item itemvalue="Spring Boot.LxlWorkflowApplication" />
       <item itemvalue="Spring Boot.LxlCommonApplication" />
@@ -258,14 +809,15 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestApplication.timeFormat" />
-        <item itemvalue="JUnit.TestApplication.save333Exception" />
-        <item itemvalue="JUnit.TestApplication.testEnum" />
-        <item itemvalue="JUnit.TestApplication.testIr" />
-        <item itemvalue="JUnit.TestApplication.testCount" />
+        <item itemvalue="JUnit.TestApplication.ihdsaih" />
+        <item itemvalue="JUnit.TestApplication.rrr" />
+        <item itemvalue="JUnit.TestApplication.D1" />
+        <item itemvalue="JUnit.TestApplication.D" />
+        <item itemvalue="JUnit.TestApplication.testII" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -326,126 +878,208 @@
       <workItem from="1636943072572" duration="11521000" />
       <workItem from="1637025368291" duration="22199000" />
       <workItem from="1637113226762" duration="10039000" />
-      <workItem from="1637197828594" duration="7894000" />
+      <workItem from="1637197828594" duration="10992000" />
+      <workItem from="1637285803076" duration="3076000" />
+      <workItem from="1637487820484" duration="1722000" />
+      <workItem from="1637494965519" duration="259000" />
+      <workItem from="1637545104208" duration="338000" />
+      <workItem from="1637547807990" duration="17000" />
+      <workItem from="1637564251832" duration="4952000" />
+      <workItem from="1637717815086" duration="14523000" />
+      <workItem from="1637812081366" duration="4714000" />
+      <workItem from="1637913438984" duration="613000" />
+      <workItem from="1638149085605" duration="3932000" />
+      <workItem from="1638257048545" duration="299000" />
+      <workItem from="1638257355872" duration="390000" />
+      <workItem from="1638259245036" duration="93000" />
+      <workItem from="1638259525416" duration="29000" />
+      <workItem from="1638262144781" duration="1497000" />
+      <workItem from="1638427773902" duration="838000" />
+      <workItem from="1638499173203" duration="2026000" />
+      <workItem from="1638512832157" duration="998000" />
+      <workItem from="1638772776620" duration="1103000" />
+      <workItem from="1638782612437" duration="1071000" />
+      <workItem from="1638874913697" duration="640000" />
+      <workItem from="1638928701506" duration="2229000" />
+      <workItem from="1638952394074" duration="1084000" />
+      <workItem from="1638958763449" duration="548000" />
+      <workItem from="1638959913992" duration="811000" />
+      <workItem from="1639014707056" duration="2979000" />
+      <workItem from="1639039619315" duration="442000" />
+      <workItem from="1639040072456" duration="613000" />
+      <workItem from="1639040798545" duration="2041000" />
+      <workItem from="1639045581207" duration="1262000" />
+      <workItem from="1639047436034" duration="287000" />
+      <workItem from="1639102532289" duration="3778000" />
+      <workItem from="1639199219150" duration="684000" />
+      <workItem from="1639548301241" duration="21000" />
+      <workItem from="1640828169160" duration="518000" />
+      <workItem from="1640832825061" duration="877000" />
+      <workItem from="1641365420836" duration="19000" />
+      <workItem from="1642045049851" duration="1295000" />
+      <workItem from="1642056469678" duration="716000" />
+      <workItem from="1642261204750" duration="669000" />
+      <workItem from="1642312705751" duration="3203000" />
+      <workItem from="1642381852523" duration="45000" />
+      <workItem from="1642560987327" duration="383000" />
+      <workItem from="1643098519317" duration="32000" />
+      <workItem from="1643098592987" duration="1318000" />
+      <workItem from="1643102767397" duration="1172000" />
+      <workItem from="1643161053139" duration="967000" />
+      <workItem from="1643166208178" duration="444000" />
+      <workItem from="1643263164214" duration="367000" />
+      <workItem from="1643269868418" duration="395000" />
+      <workItem from="1643275641242" duration="1725000" />
+      <workItem from="1643461243650" duration="238000" />
+      <workItem from="1644818652635" duration="368000" />
+      <workItem from="1645165539937" duration="1449000" />
+      <workItem from="1645585735818" duration="108000" />
+      <workItem from="1646031883420" duration="1738000" />
+      <workItem from="1646044345108" duration="2592000" />
+      <workItem from="1646133178049" duration="94000" />
+      <workItem from="1646133585834" duration="849000" />
+      <workItem from="1646182604755" duration="929000" />
+      <workItem from="1646186573316" duration="1193000" />
+      <workItem from="1646201355350" duration="10079000" />
+      <workItem from="1646306116440" duration="268000" />
+      <workItem from="1646377778346" duration="20000" />
+      <workItem from="1646377824921" duration="258000" />
+      <workItem from="1646543715060" duration="493000" />
+      <workItem from="1646545704801" duration="2984000" />
+      <workItem from="1647327455327" duration="3687000" />
+      <workItem from="1647339892805" duration="1012000" />
+      <workItem from="1647427443896" duration="2964000" />
+      <workItem from="1647486499923" duration="2787000" />
+      <workItem from="1647503963154" duration="1253000" />
+      <workItem from="1647568516934" duration="1648000" />
+      <workItem from="1647833133282" duration="1230000" />
+      <workItem from="1649211703710" duration="1777000" />
+      <workItem from="1649641157514" duration="944000" />
+      <workItem from="1649661948207" duration="7761000" />
+      <workItem from="1649725010850" duration="1823000" />
+      <workItem from="1649729695036" duration="17957000" />
+      <workItem from="1649814099429" duration="3469000" />
+      <workItem from="1649835993709" duration="1244000" />
+      <workItem from="1650009156635" duration="584000" />
+      <workItem from="1650538469375" duration="2242000" />
+      <workItem from="1650544762839" duration="119000" />
+      <workItem from="1650588641789" duration="485000" />
+      <workItem from="1652421253856" duration="1533000" />
+      <workItem from="1653470981699" duration="2921000" />
+      <workItem from="1653526967239" duration="31472000" />
+      <workItem from="1653613159210" duration="32506000" />
+      <workItem from="1653825443655" duration="5319000" />
+      <workItem from="1653871973726" duration="29845000" />
+      <workItem from="1653958909215" duration="2518000" />
+      <workItem from="1653961455435" duration="11917000" />
+      <workItem from="1654044769219" duration="6678000" />
+      <workItem from="1654741552668" duration="12201000" />
+      <workItem from="1654825671109" duration="2457000" />
+      <workItem from="1654856402416" duration="1141000" />
+      <workItem from="1655193732403" duration="1163000" />
+      <workItem from="1655272443057" duration="3414000" />
+      <workItem from="1655343418114" duration="935000" />
+      <workItem from="1655367819430" duration="4560000" />
+      <workItem from="1655427443033" duration="64000" />
+      <workItem from="1655429365508" duration="1166000" />
+      <workItem from="1655890261155" duration="606000" />
+      <workItem from="1655980783004" duration="4071000" />
+      <workItem from="1655985506577" duration="206000" />
+      <workItem from="1655986804489" duration="949000" />
+      <workItem from="1656053668765" duration="8269000" />
+      <workItem from="1656310659542" duration="550000" />
+      <workItem from="1656317569366" duration="3316000" />
+      <workItem from="1656377996317" duration="1687000" />
+      <workItem from="1656386190838" duration="3400000" />
+      <workItem from="1656411998352" duration="2467000" />
+      <workItem from="1656464467167" duration="559000" />
+      <workItem from="1656484620097" duration="806000" />
+      <workItem from="1656655652192" duration="1692000" />
+      <workItem from="1657617267632" duration="848000" />
+      <workItem from="1657678543652" duration="372000" />
+      <workItem from="1657701851057" duration="353000" />
+      <workItem from="1658301648777" duration="172000" />
+      <workItem from="1658366408594" duration="22000" />
+      <workItem from="1658366512636" duration="5381000" />
+      <workItem from="1658373847962" duration="663000" />
+      <workItem from="1658387816631" duration="1754000" />
+      <workItem from="1659578982279" duration="11162000" />
+      <workItem from="1659661570921" duration="2414000" />
+      <workItem from="1659924207502" duration="2079000" />
+      <workItem from="1659926787599" duration="267000" />
+      <workItem from="1659927641440" duration="14000" />
+      <workItem from="1660118802415" duration="133000" />
+      <workItem from="1660183902497" duration="596000" />
+      <workItem from="1660628642428" duration="2577000" />
+      <workItem from="1660870767086" duration="5701000" />
+      <workItem from="1660891090555" duration="1887000" />
+      <workItem from="1661131724433" duration="978000" />
+      <workItem from="1661413764027" duration="3447000" />
+      <workItem from="1661419151293" duration="2009000" />
+      <workItem from="1661475413299" duration="63000" />
+      <workItem from="1661476290872" duration="1038000" />
+      <workItem from="1661738931993" duration="7922000" />
+      <workItem from="1661764728997" duration="1687000" />
+      <workItem from="1661821655892" duration="273000" />
+      <workItem from="1662018573462" duration="1983000" />
+      <workItem from="1662031626905" duration="55000" />
+      <workItem from="1662083327820" duration="1329000" />
+      <workItem from="1668560540951" duration="425000" />
+      <workItem from="1669281289480" duration="87000" />
+      <workItem from="1673940687955" duration="991000" />
+      <workItem from="1675068307051" duration="563000" />
+      <workItem from="1675386363838" duration="1127000" />
+      <workItem from="1675387503807" duration="2900000" />
+      <workItem from="1675391533770" duration="7071000" />
+      <workItem from="1678790713286" duration="1292000" />
+      <workItem from="1678841732657" duration="21000" />
+      <workItem from="1682587739857" duration="1590000" />
+      <workItem from="1682593684578" duration="393000" />
+      <workItem from="1683343518111" duration="1924000" />
+      <workItem from="1683526178419" duration="286000" />
+      <workItem from="1683526500356" duration="178000" />
+      <workItem from="1683790892212" duration="1026000" />
+      <workItem from="1683791925360" duration="1584000" />
     </task>
+    <task id="LOCAL-00001" summary="搭建基本">
+      <created>1637219147697</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637219147698</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="965" y="305" key="#Assign_Data_Sources" timestamp="1629792049211">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="965" y="305" key="#Assign_Data_Sources/0.0.1536.824@0.0.1536.824" timestamp="1629792049211" />
-    <state x="141" y="0" key="#Project_Structure" timestamp="1632563780404">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="141" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1632563780404" />
-    <state x="574" y="118" width="388" height="652" key="#com.intellij.ide.util.MemberChooser" timestamp="1637207189476">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="118" width="388" height="652" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1637207189476" />
-    <state x="718" y="299" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1629804169164">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="718" y="299" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1629804169164" />
-    <state x="544" y="279" width="448" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1632563034310">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="544" y="279" width="448" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1632563034310" />
-    <state width="781" height="466" key="DebuggerActiveHint" timestamp="1637206829401">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="781" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1637206829401" />
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1637219056875">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1637219056875" />
-    <state width="1493" height="263" key="GridCell.Tab.0.bottom" timestamp="1637206968648">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1637206968648" />
-    <state width="1493" height="263" key="GridCell.Tab.0.center" timestamp="1637206968648">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1637206968648" />
-    <state width="1493" height="263" key="GridCell.Tab.0.left" timestamp="1637206968648">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1637206968648" />
-    <state width="1493" height="263" key="GridCell.Tab.0.right" timestamp="1637206968648">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1637206968648" />
-    <state width="1493" height="263" key="GridCell.Tab.1.bottom" timestamp="1637207117943">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="263" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1637207117943" />
-    <state width="1493" height="263" key="GridCell.Tab.1.center" timestamp="1637207117943">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="263" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1637207117943" />
-    <state width="1493" height="263" key="GridCell.Tab.1.left" timestamp="1637207117943">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="263" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1637207117943" />
-    <state width="1493" height="263" key="GridCell.Tab.1.right" timestamp="1637207117943">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="263" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1637207117943" />
-    <state width="1493" height="263" key="GridCell.Tab.2.bottom" timestamp="1637206968513">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="263" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1637206968513" />
-    <state width="1493" height="263" key="GridCell.Tab.2.center" timestamp="1637206968513">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="263" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1637206968513" />
-    <state width="1493" height="263" key="GridCell.Tab.2.left" timestamp="1637206968513">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="263" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1637206968513" />
-    <state width="1493" height="263" key="GridCell.Tab.2.right" timestamp="1637206968513">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="263" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1637206968513" />
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1637030410894">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1637030410894" />
-    <state x="270" y="57" key="SettingsEditor" timestamp="1636946646645">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1636946646645" />
-    <state x="585" y="196" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1635331484172">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="585" y="196" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1635331484172" />
-    <state x="313" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1629804935287">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="313" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1629804935287" />
-    <state x="451" y="191" width="855" height="608" key="find.popup" timestamp="1637030736874">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="451" y="191" width="855" height="608" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1637030736874" />
-    <state x="82" y="49" key="new project wizard" timestamp="1629773329633">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="82" y="49" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1629773329633" />
-    <state x="548" y="158" key="refactoring.ChangeSignatureDialog" timestamp="1636711258769">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="548" y="158" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1636711258769" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1637205461252">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1637205461252" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1637205644069">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1637205644069" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="搭建基本" />
+    <option name="LAST_COMMIT_MESSAGE" value="搭建基本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -465,16 +1099,38 @@
           <line>39</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/utils/EncryptionUtil.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.8/spring-web-5.3.8-sources.jar!/org/springframework/web/client/RestTemplate.java</url>
+          <line>358</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lxl-flag/src/main/java/com/gre/lxl/service/QueryGrantTypeService.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="builder.toString()" language="JAVA" />
+        <watch expression="result.apply(resourceType)" language="JAVA" />
+        <watch expression="aClass.getField(&quot;planTimeId&quot;)" language="JAVA" />
       </configuration>
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="new String(encode,StandardCharsets.UTF_8)" language="JAVA" />
         <watch expression="mode.name()" language="JAVA" />
         <watch expression="req.getMethod()" language="JAVA" />
+        <watch expression="config.getUserProperties()" language="JAVA" />
+        <watch expression="file.getName()" language="JAVA" />
+      </configuration>
+      <configuration name="MavenRunConfiguration">
+        <watch expression="CmbConfig.privateKey" language="JAVA" />
+        <watch expression="e.getMessage()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

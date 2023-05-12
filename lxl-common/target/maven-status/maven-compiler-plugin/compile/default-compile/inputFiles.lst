@@ -5,6 +5,7 @@ E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\util\SecurityUtils.
 E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\util\MessageUtils.java
 E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\util\PhoneUtils.java
 E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\core\domain\model\AjaxResult.java
+E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\util\RestTemplateConfiguration.java
 E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\util\StringUtils.java
 E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\constant\HttpStatus.java
 E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\constant\Constants.java
@@ -31,6 +32,8 @@ E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\core\controller\Bas
 E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\core\domain\ResultT.java
 E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\core\LoginEnum.java
 E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\core\page\PageDomain.java
+E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\util\CreateFileUtils.java
 E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\exception\CustomException.java
 E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\model\LoginUser.java
+E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\core\domain\KvPair.java
 E:\test\lxl-long\lxl-common\src\main\java\com\gre\lxl\common\util\DateUtils.java

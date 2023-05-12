@@ -3,13 +3,16 @@ package com.gre.lxl.domain;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.gre.lxl.common.core.domain.BaseEntity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.io.Serializable;
+import java.sql.Time;
 import java.util.Date;
 
 /**
@@ -45,11 +48,18 @@ public class CsPrjEvaluationEx extends BaseEntity implements Serializable {
     private String createUser;
 
     @TableField("CREATE_TIME")
-    private Date createTime;
+    @JsonFormat(pattern = "HH:mm:ss")
+    private Time createTime;
 
     @TableField("UPDATE_USER")
     private String updateUser;
 
     @TableField("UPDATE_TIME")
     private Date updateTime;
+
+
+    @TableField(exist = false)
+    @JsonFormat(pattern = "HH:mm:ss")
+    @DateTimeFormat(pattern = "HH:mm:ss")
+    private Time currentTime;
 }

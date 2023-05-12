@@ -1,5 +1,6 @@
 com\gre\lxl\common\constant\HttpStatus.class
 com\gre\lxl\common\util\MessageUtils.class
+com\gre\lxl\common\util\RestTemplateConfiguration.class
 com\gre\lxl\common\core\page\TableDataInfo.class
 com\gre\lxl\common\core\text\StrFormatter.class
 com\gre\lxl\common\util\ObjectsUtil.class
@@ -23,6 +24,7 @@ com\gre\lxl\common\core\page\TableSupport.class
 com\gre\lxl\common\util\uuid\IdUtils.class
 com\gre\lxl\common\util\html\HTMLFilter.class
 com\gre\lxl\common\model\UserCachedVO.class
+com\gre\lxl\common\core\domain\KvPair.class
 com\gre\lxl\common\util\DateUtils.class
 com\gre\lxl\common\core\domain\LoginTeacher.class
 com\gre\lxl\common\exception\CustomException.class
@@ -34,4 +36,5 @@ com\gre\lxl\common\core\controller\BaseController$1.class
 com\gre\lxl\common\core\page\PageDomain.class
 com\gre\lxl\common\core\text\Convert.class
 com\gre\lxl\common\core\domain\BaseEntity.class
+com\gre\lxl\common\util\CreateFileUtils.class
 com\gre\lxl\common\util\ServletUtils.class
