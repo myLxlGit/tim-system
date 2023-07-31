@@ -29,6 +29,7 @@ import com.gre.lxl.domain.*;
 import com.gre.lxl.framework.system.login.mapper.TestLoginMapper;
 import com.gre.lxl.functionIn.VUtils;
 import com.gre.lxl.httpStudy.retrofit.remote.RemoteService;
+import com.gre.lxl.httpStudy.retrofit.remote.rtService;
 import com.gre.lxl.mapper.CsPrjEvaluationExMapper;
 import com.gre.lxl.mapper.RcTeacherMapper;
 import com.gre.lxl.service.QueryGrantTypeService;
@@ -45,12 +46,15 @@ import com.gre.lxl.testDelay.DelayTestService;
 import com.gre.lxl.testTB.LoginUserV1;
 import com.gre.lxl.testTB.PlanCon;
 import com.gre.lxl.testTB.SpotM;
+import com.gre.lxl.threadlocal.service.ServiceStart;
 import com.gre.lxl.utils.*;
 import lombok.extern.slf4j.Slf4j;
 import okhttp3.*;
 import okhttp3.MediaType;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.redisson.api.RLock;
+import org.redisson.api.RedissonClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -75,6 +79,7 @@ import java.text.SimpleDateFormat;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
@@ -92,7 +97,7 @@ import static java.util.stream.Collectors.*;
 @Slf4j
 public class TestApplication {
 
-//    @Autowired
+    //    @Autowired
 //    private FairyAdminRepository adminServe;
 //    @Autowired
 //    private FairyCatRepository fairyCatService;
@@ -1563,7 +1568,7 @@ public class TestApplication {
         sb.append(queryBill_url).append("?");
 
         List<KvPair> list = new ArrayList<>();
-        list.add(new KvPair("contractId",contractId));
+        list.add(new KvPair("contractId", contractId));
 
         list.forEach(i -> sb.append(i.getKey()).append("=").append(i.getValue()).append("&"));
         sb.deleteCharAt(sb.length() - 1);
@@ -1583,7 +1588,7 @@ public class TestApplication {
             List<BillResp> billResps = data.toJavaList(BillResp.class);
             log.info("转化返回数据：{}", billResps);
         } else {
-            log.error("错误信息：{}",msg);
+            log.error("错误信息：{}", msg);
         }
 
     }
@@ -1610,8 +1615,8 @@ public class TestApplication {
                 .srcPath("lcfile2/20220725")
                 .build();
         String s = XmlUtils.convertToXml(req, FileNoticeReq.class);
-        s = s.replace("GBK","UTF_8");
-        s = s.replace("__","_");
+        s = s.replace("GBK", "UTF_8");
+        s = s.replace("__", "_");
         System.out.println("文件通知报文：" + s);
 
         try {
@@ -1622,14 +1627,13 @@ public class TestApplication {
             HttpEntity<Object> tturiLogin = new HttpEntity<>(s, headersuriLogin);
             ResponseEntity<String> exchangeuriLogin = restTemplate.exchange(uriuriLogin, HttpMethod.POST, tturiLogin, String.class);
             String body = exchangeuriLogin.getBody();
-            log.info("返回数据： {}",body);
+            log.info("返回数据： {}", body);
         } catch (Exception e) {
             e.printStackTrace();
         }
 
 
     }
-
 
 
     @Test
@@ -1720,7 +1724,7 @@ public class TestApplication {
     public void testII() {
         try {
             String str = "dtr";
-            IFtrService bean = (IFtrService)SpringUtils.getBean(TrType.getClazz(str));
+            IFtrService bean = (IFtrService) SpringUtils.getBean(TrType.getClazz(str));
             List<Lor> list = bean.testList();
             if (!CollectionUtils.isEmpty(list)) {
                 List<AllDar> collect = list.stream().map(AllDar::new).collect(toList());
@@ -1730,7 +1734,7 @@ public class TestApplication {
             }
             List<AllDar> list3 = new ArrayList<>();
             Arrays.stream(TrType.values()).forEach(item -> {
-                IFtrService bean2 = (IFtrService)SpringUtils.getBean(item.getClazz());
+                IFtrService bean2 = (IFtrService) SpringUtils.getBean(item.getClazz());
                 List<Lor> list1 = bean2.testList();
                 List<AllDar> collect = list1.stream().map(AllDar::new).collect(toList());
                 list3.addAll(collect);
@@ -1740,13 +1744,11 @@ public class TestApplication {
 //            DataEnum.ofExist("5");
 
             Map<String, Object> map = new HashMap<>();
-            map.put("dd","dd");
+            map.put("dd", "dd");
             if ("dtr".equals(str)) {
-                map.put("dd","dtr");
+                map.put("dd", "dtr");
             }
             System.out.println(map);
-
-
 
 
 //            ChartParam chartParam = new ChartParam();
@@ -1781,11 +1783,11 @@ public class TestApplication {
     @Test
     public void rrr() {
         Map<String, String> map = new HashMap<>();
-        map.put("uscc","91340521551817498G");
-        map.put("telephone","0555-6827987");
-        map.put("bankName","武安市农行");
-        map.put("address","安徽省马鞍山市当涂经济开发区");
-        map.put("bankAccount","1561601021000194038");
+        map.put("uscc", "91340521551817498G");
+        map.put("telephone", "0555-6827987");
+        map.put("bankName", "武安市农行");
+        map.put("address", "安徽省马鞍山市当涂经济开发区");
+        map.put("bankAccount", "1561601021000194038");
 
         String test11 = remoteService.getTest11(map);
         System.out.println(test11);
@@ -1837,14 +1839,11 @@ public class TestApplication {
         Map<String, Object> map = MapUtils.buildMap("jja", "jaja");
 
 
-
-
     }
 
 
-
     @Test
-    public void  ihdsaih () {
+    public void ihdsaih() {
         //输出固定长度16位，不足向左补齐
         String originalString = "Hello World"; // Replace "Hello World" with your original string
         int fixedLength = 16;
@@ -1862,9 +1861,9 @@ public class TestApplication {
     public void sms() throws Exception {
         com.aliyun.teaopenapi.models.Config config = new com.aliyun.teaopenapi.models.Config()
                 // 必填，您的 AccessKey ID
-                .setAccessKeyId(accessKeyId)
+                .setAccessKeyId("accessKeyId")
                 // 必填，您的 AccessKey Secret
-                .setAccessKeySecret(accessKeySecret);
+                .setAccessKeySecret("accessKeySecret");
         // 访问的域名
         config.endpoint = "dysmsapi.aliyuncs.com";
 
@@ -1885,6 +1884,78 @@ public class TestApplication {
 
     }
 
+    @Test
+    public void testtt() {
+        //java隐藏手机号 和 身份证
+        String phone = "15064102036";
+        phone = phone.replaceAll("(\\d{3})\\d{4}(\\d{4})", "$1****$2");
+        System.out.println("隐藏手机号 = " + phone);
+
+        //身份证
+        String idCard = "371323199703308711";
+        idCard = idCard.replaceAll("(\\d{4})\\d{10}(\\w{4})", "$1*****$2");
+        System.out.println("隐藏身份证 = " + idCard);
+    }
+
+
+    @Autowired
+    private RedissonClient redissonClient;
+
+    @Test
+    public void testSuo() throws InterruptedException {
+
+        //8.1. 可重入锁（Reentrant Lock）
+        //基于Redis的Redisson分布式可重入锁RLock Java对象实现了java.util.concurrent.locks.Lock接口。同时还提供了异步（Async）、反射式（Reactive）和RxJava2标准的接口。
+
+        //RLock lock = redisson.getLock("anyLock");
+        // 最常见的使用方法
+        //lock.lock();
+        //大家都知道，如果负责储存这个分布式锁的Redisson节点宕机以后，而且这个锁正好处于锁住的状态时，这个锁会出现锁死的状态。
+        // 为了避免这种情况的发生，Redisson内部提供了一个监控锁的看门狗，
+        // 它的作用是在Redisson实例被关闭前，不断的延长锁的有效期。
+        // 默认情况下，看门狗的检查锁的超时时间是30秒钟，也可以通过修改Config.lockWatchdogTimeout来另行指定。
+
+        //另外Redisson还通过加锁的方法提供了leaseTime的参数来指定加锁的时间。超过这个时间后锁便自动解开了。
+        String redisFix = "redis01";
+
+        RLock lock = redissonClient.getLock(redisFix);
+        //尝试加锁，最多等待100秒，上锁以后10秒自动解锁
+        boolean isLock = lock.tryLock(5, 5, TimeUnit.MINUTES);
+
+        if (isLock) {
+            System.out.println("上锁");
+        } else {
+            System.out.println("系统繁忙！ 存在上锁");
+        }
+
+    }
+
+    @Resource
+    private rtService rtService;
+
+    @Test
+    public void tesstsss() {
+//        String s = rtService.queryValidArInvBillListByOmCon(10177);
+//        String s1 = rtService.querySalesActuralIoList(109978);
+
+//        System.out.println("queryValidArInvBillListByOmCon = " + s);
+//        System.out.println("querySalesActuralIoList = " + s1);
+
+
+        BigDecimal bigDecimal = new BigDecimal("-15.55");
+
+        String string = bigDecimal.toString();
+        System.out.println(string);
+
+    }
+
+    @Autowired
+    ServiceStart serviceStart;
+
+    @Test
+    public void testlocal() {
+        serviceStart.start();
+    }
 
 
 

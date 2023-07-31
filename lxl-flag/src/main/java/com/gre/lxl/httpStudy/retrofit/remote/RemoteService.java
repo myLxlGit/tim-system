@@ -11,7 +11,7 @@ import java.util.Map;
  * @date 2023/2/3 9:49
  */
 @RetrofitClient(baseUrl = "${base.url}")
-@RegisterSign(appId = "111", secretId = "2222")
+@RegisterSign(appId = "63m5TAcNTHtLeZy7APOweUA1", secretId = "C6EB7AB6654BDBCEE05301C7040A74FC")
 public interface RemoteService {
 
     @GET("/hedging/queryHedgingPlanHeaderAmountList")

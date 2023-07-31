@@ -6,7 +6,7 @@ server:
 #    context‐path: /
 
 base:
-  url: 'http://10.4.27.142:18080'
+  url: 'https://itc.sumec.com/erp/stage-api/'
 
 spring:
   datasource:
@@ -14,17 +14,17 @@ spring:
     url: jdbc:mysql://localhost:3306/rainng_course?useUnicode=true&characterEncoding=utf-8&useSSL=false&&nullCatalogMeansCurrent=true
     username: root
     password: root
-  #  redis:
-  #    host: localhost
-  #    port: 6379
-  #  session:
-  #    store-type: redis
-  #    timeout: 86400
+  redis:
+    host: localhost
+    port: 6379
+  session:
+    store-type: redis
+    timeout: 86400
   jackson:
     time-zone: Asia/Shanghai
-#  data:
-#    mongodb:
-#      uri: mongodb://localhost:27017/rainng_course
+  #  data:
+  #    mongodb:
+  #      uri: mongodb://localhost:27017/rainng_course
   application:
     name: security‐springboot
 

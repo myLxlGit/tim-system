@@ -1,15 +1,19 @@
 package com.gre.lxl.httpStudy.retrofit.register;
 
 import com.github.lianjiatech.retrofit.spring.boot.interceptor.BasePathMatchInterceptor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.Setter;
+import com.google.common.hash.Hashing;
+import com.gre.lxl.common.exception.CustomException;
+import com.gre.lxl.common.util.StringUtils;
+import lombok.*;
+import okhttp3.HttpUrl;
 import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.util.List;
 
 /**
  * @author lxl
